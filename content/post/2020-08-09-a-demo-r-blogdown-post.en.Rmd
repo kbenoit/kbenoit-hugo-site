@@ -1,0 +1,43 @@
+---
+title: A demo R blogdown post
+author: demo
+date: '2020-08-09'
+slug: a-demo-r-blogdown-post
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-09T18:37:13+10:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Quanteda is an R package for managing and analyzing text (https://quanteda.io/). One benefit of using quanteda is its powerful plot tools. You can easily plot a wordcloud graph for a set of documents, i.e. a corpus.
+
+Here, we will use quanteda's build-in corpus, the *inaugural address corpus* to demonstrate how to plot a wordcloud graph.
+
+**Step 1:** load quanteda package.
+
+```{r message=FALSE}
+library("quanteda")
+```
+
+**Step 2:** create a dfm (Document features matrix) by tokenize the corpus.
+
+```{r}
+my_tokens = tokens(data_corpus_inaugural, remove_punct = TRUE, remove_symbols = TRUE)
+my_dfm = dfm(my_tokens, remove=stopwords(language = "en"))
+```
+
+**Step 3:** we use that dfm to plot a wordcloud graph.
+
+```{r}
+textplot_wordcloud(my_dfm, max_words=200)
+```
+
+There many more options for the plot. Please refer to [textplot_wordcloud](https://quanteda.io/reference/textplot_wordcloud.html) for more details.

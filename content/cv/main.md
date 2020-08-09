@@ -9,7 +9,7 @@ title = ""
 author = "admin"
 +++
 
-To download my C.V. in .pdf format, click [here.](/pdfs/KenBenoitCV.pdf)
+To download my C.V. in .pdf format, click [here.](pdfs/KenBenoitCV.pdf)
 
 ### Menu
 

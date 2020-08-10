@@ -17,9 +17,9 @@ image:
 projects: []
 ---
 
-Quanteda is an R package for managing and analyzing text (https://quanteda.io/). One benefit of using quanteda is its powerful plot tools. You can easily plot a wordcloud graph for a set of documents, i.e. a corpus.
+Quanteda is an R package for managing and analyzing text (https://quanteda.io/). One benefit of using quanteda is its powerful plot tools. You can easily plot a keyness graph for a set of documents, i.e. a corpus.
 
-Here, we will use quanteda's build-in corpus, the *inaugural address corpus* to demonstrate how to plot a wordcloud graph.
+Here, we will use quanteda's build-in corpus, the *inaugural address corpus* to demonstrate how to plot a keyness graph.
 
 **Step 1:** load quanteda package.
 
@@ -30,14 +30,20 @@ library("quanteda")
 **Step 2:** create a dfm (Document features matrix) by tokenize the corpus.
 
 ```{r}
-my_tokens = tokens(data_corpus_inaugural, remove_punct = TRUE, remove_symbols = TRUE)
-my_dfm = dfm(my_tokens, remove=stopwords(language = "en"))
+my_tokens <- tokens(data_corpus_inaugural, remove_punct = TRUE, remove_symbols = TRUE)
+my_dfm <- dfm(my_tokens, remove=stopwords(language = "en"))
 ```
 
-**Step 3:** we use that dfm to plot a wordcloud graph.
+**Step 3:** we use that dfm to create a keyness object.
 
 ```{r}
-textplot_wordcloud(my_dfm, max_words=200)
+my_keyness <- textstat_keyness(my_dfm)
 ```
 
-There many more options for the plot. Please refer to [textplot_wordcloud](https://quanteda.io/reference/textplot_wordcloud.html) for more details.
+**Step 4:** finally, we plot the keyness object.
+
+```{r}
+textplot_keyness(my_keyness)
+```
+
+There many more options for the plot. Please refer to [textplot_wordcloud](https://quanteda.io/reference/textplot_keyness.html) for more details.

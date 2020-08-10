@@ -181,10 +181,10 @@ sum(nchar(s2))
 <p>We can use this to answer some simple questions about election manifestos by UK parties on immigration.</p>
 <p>Which are the longest and shortest statements? We can query this using two functions, <code>nchar()</code> and <code>which.max()</code> and <code>which.min()</code>.</p>
 <pre class="r"><code>which.max(nchar(data_char_ukimmig2010))
-## BNP 
+## BNP
 ##   1
 which.min(nchar(data_char_ukimmig2010))
-## PC 
+## PC
 ##  7</code></pre>
 </div>
 <div id="extracting-characters" class="section level2">
@@ -203,25 +203,25 @@ substr(s1, 6, 9)
 <h2>Splitting texts and using lists</h2>
 <p>Often we would like to split character vectors to extract a term of interest. This is possible using the <code>strsplit</code> function. Consider the names of the inaugural texts corpus (<code>data_corpus_inaugural</code>):</p>
 <pre class="r"><code>docnames(data_corpus_inaugural)
-##  [1] &quot;1789-Washington&quot; &quot;1793-Washington&quot; &quot;1797-Adams&quot;     
-##  [4] &quot;1801-Jefferson&quot;  &quot;1805-Jefferson&quot;  &quot;1809-Madison&quot;   
-##  [7] &quot;1813-Madison&quot;    &quot;1817-Monroe&quot;     &quot;1821-Monroe&quot;    
-## [10] &quot;1825-Adams&quot;      &quot;1829-Jackson&quot;    &quot;1833-Jackson&quot;   
-## [13] &quot;1837-VanBuren&quot;   &quot;1841-Harrison&quot;   &quot;1845-Polk&quot;      
-## [16] &quot;1849-Taylor&quot;     &quot;1853-Pierce&quot;     &quot;1857-Buchanan&quot;  
-## [19] &quot;1861-Lincoln&quot;    &quot;1865-Lincoln&quot;    &quot;1869-Grant&quot;     
-## [22] &quot;1873-Grant&quot;      &quot;1877-Hayes&quot;      &quot;1881-Garfield&quot;  
-## [25] &quot;1885-Cleveland&quot;  &quot;1889-Harrison&quot;   &quot;1893-Cleveland&quot; 
-## [28] &quot;1897-McKinley&quot;   &quot;1901-McKinley&quot;   &quot;1905-Roosevelt&quot; 
-## [31] &quot;1909-Taft&quot;       &quot;1913-Wilson&quot;     &quot;1917-Wilson&quot;    
-## [34] &quot;1921-Harding&quot;    &quot;1925-Coolidge&quot;   &quot;1929-Hoover&quot;    
-## [37] &quot;1933-Roosevelt&quot;  &quot;1937-Roosevelt&quot;  &quot;1941-Roosevelt&quot; 
+##  [1] &quot;1789-Washington&quot; &quot;1793-Washington&quot; &quot;1797-Adams&quot;
+##  [4] &quot;1801-Jefferson&quot;  &quot;1805-Jefferson&quot;  &quot;1809-Madison&quot;
+##  [7] &quot;1813-Madison&quot;    &quot;1817-Monroe&quot;     &quot;1821-Monroe&quot;
+## [10] &quot;1825-Adams&quot;      &quot;1829-Jackson&quot;    &quot;1833-Jackson&quot;
+## [13] &quot;1837-VanBuren&quot;   &quot;1841-Harrison&quot;   &quot;1845-Polk&quot;
+## [16] &quot;1849-Taylor&quot;     &quot;1853-Pierce&quot;     &quot;1857-Buchanan&quot;
+## [19] &quot;1861-Lincoln&quot;    &quot;1865-Lincoln&quot;    &quot;1869-Grant&quot;
+## [22] &quot;1873-Grant&quot;      &quot;1877-Hayes&quot;      &quot;1881-Garfield&quot;
+## [25] &quot;1885-Cleveland&quot;  &quot;1889-Harrison&quot;   &quot;1893-Cleveland&quot;
+## [28] &quot;1897-McKinley&quot;   &quot;1901-McKinley&quot;   &quot;1905-Roosevelt&quot;
+## [31] &quot;1909-Taft&quot;       &quot;1913-Wilson&quot;     &quot;1917-Wilson&quot;
+## [34] &quot;1921-Harding&quot;    &quot;1925-Coolidge&quot;   &quot;1929-Hoover&quot;
+## [37] &quot;1933-Roosevelt&quot;  &quot;1937-Roosevelt&quot;  &quot;1941-Roosevelt&quot;
 ## [40] &quot;1945-Roosevelt&quot;  &quot;1949-Truman&quot;     &quot;1953-Eisenhower&quot;
-## [43] &quot;1957-Eisenhower&quot; &quot;1961-Kennedy&quot;    &quot;1965-Johnson&quot;   
-## [46] &quot;1969-Nixon&quot;      &quot;1973-Nixon&quot;      &quot;1977-Carter&quot;    
-## [49] &quot;1981-Reagan&quot;     &quot;1985-Reagan&quot;     &quot;1989-Bush&quot;      
-## [52] &quot;1993-Clinton&quot;    &quot;1997-Clinton&quot;    &quot;2001-Bush&quot;      
-## [55] &quot;2005-Bush&quot;       &quot;2009-Obama&quot;      &quot;2013-Obama&quot;     
+## [43] &quot;1957-Eisenhower&quot; &quot;1961-Kennedy&quot;    &quot;1965-Johnson&quot;
+## [46] &quot;1969-Nixon&quot;      &quot;1973-Nixon&quot;      &quot;1977-Carter&quot;
+## [49] &quot;1981-Reagan&quot;     &quot;1985-Reagan&quot;     &quot;1989-Bush&quot;
+## [52] &quot;1993-Clinton&quot;    &quot;1997-Clinton&quot;    &quot;2001-Bush&quot;
+## [55] &quot;2005-Bush&quot;       &quot;2009-Obama&quot;      &quot;2013-Obama&quot;
 ## [58] &quot;2017-Trump&quot;
 # returns a list of parts
 parts &lt;- strsplit(docnames(data_corpus_inaugural), '-')
@@ -240,25 +240,25 @@ pres &lt;- sapply(parts, function(x) x[2])</code></pre>
 paste('one','two','three', sep = '_')
 ## [1] &quot;one_two_three&quot;
 paste(years, pres, sep = '-')
-##  [1] &quot;1789-Washington&quot; &quot;1793-Washington&quot; &quot;1797-Adams&quot;     
-##  [4] &quot;1801-Jefferson&quot;  &quot;1805-Jefferson&quot;  &quot;1809-Madison&quot;   
-##  [7] &quot;1813-Madison&quot;    &quot;1817-Monroe&quot;     &quot;1821-Monroe&quot;    
-## [10] &quot;1825-Adams&quot;      &quot;1829-Jackson&quot;    &quot;1833-Jackson&quot;   
-## [13] &quot;1837-VanBuren&quot;   &quot;1841-Harrison&quot;   &quot;1845-Polk&quot;      
-## [16] &quot;1849-Taylor&quot;     &quot;1853-Pierce&quot;     &quot;1857-Buchanan&quot;  
-## [19] &quot;1861-Lincoln&quot;    &quot;1865-Lincoln&quot;    &quot;1869-Grant&quot;     
-## [22] &quot;1873-Grant&quot;      &quot;1877-Hayes&quot;      &quot;1881-Garfield&quot;  
-## [25] &quot;1885-Cleveland&quot;  &quot;1889-Harrison&quot;   &quot;1893-Cleveland&quot; 
-## [28] &quot;1897-McKinley&quot;   &quot;1901-McKinley&quot;   &quot;1905-Roosevelt&quot; 
-## [31] &quot;1909-Taft&quot;       &quot;1913-Wilson&quot;     &quot;1917-Wilson&quot;    
-## [34] &quot;1921-Harding&quot;    &quot;1925-Coolidge&quot;   &quot;1929-Hoover&quot;    
-## [37] &quot;1933-Roosevelt&quot;  &quot;1937-Roosevelt&quot;  &quot;1941-Roosevelt&quot; 
+##  [1] &quot;1789-Washington&quot; &quot;1793-Washington&quot; &quot;1797-Adams&quot;
+##  [4] &quot;1801-Jefferson&quot;  &quot;1805-Jefferson&quot;  &quot;1809-Madison&quot;
+##  [7] &quot;1813-Madison&quot;    &quot;1817-Monroe&quot;     &quot;1821-Monroe&quot;
+## [10] &quot;1825-Adams&quot;      &quot;1829-Jackson&quot;    &quot;1833-Jackson&quot;
+## [13] &quot;1837-VanBuren&quot;   &quot;1841-Harrison&quot;   &quot;1845-Polk&quot;
+## [16] &quot;1849-Taylor&quot;     &quot;1853-Pierce&quot;     &quot;1857-Buchanan&quot;
+## [19] &quot;1861-Lincoln&quot;    &quot;1865-Lincoln&quot;    &quot;1869-Grant&quot;
+## [22] &quot;1873-Grant&quot;      &quot;1877-Hayes&quot;      &quot;1881-Garfield&quot;
+## [25] &quot;1885-Cleveland&quot;  &quot;1889-Harrison&quot;   &quot;1893-Cleveland&quot;
+## [28] &quot;1897-McKinley&quot;   &quot;1901-McKinley&quot;   &quot;1905-Roosevelt&quot;
+## [31] &quot;1909-Taft&quot;       &quot;1913-Wilson&quot;     &quot;1917-Wilson&quot;
+## [34] &quot;1921-Harding&quot;    &quot;1925-Coolidge&quot;   &quot;1929-Hoover&quot;
+## [37] &quot;1933-Roosevelt&quot;  &quot;1937-Roosevelt&quot;  &quot;1941-Roosevelt&quot;
 ## [40] &quot;1945-Roosevelt&quot;  &quot;1949-Truman&quot;     &quot;1953-Eisenhower&quot;
-## [43] &quot;1957-Eisenhower&quot; &quot;1961-Kennedy&quot;    &quot;1965-Johnson&quot;   
-## [46] &quot;1969-Nixon&quot;      &quot;1973-Nixon&quot;      &quot;1977-Carter&quot;    
-## [49] &quot;1981-Reagan&quot;     &quot;1985-Reagan&quot;     &quot;1989-Bush&quot;      
-## [52] &quot;1993-Clinton&quot;    &quot;1997-Clinton&quot;    &quot;2001-Bush&quot;      
-## [55] &quot;2005-Bush&quot;       &quot;2009-Obama&quot;      &quot;2013-Obama&quot;     
+## [43] &quot;1957-Eisenhower&quot; &quot;1961-Kennedy&quot;    &quot;1965-Johnson&quot;
+## [46] &quot;1969-Nixon&quot;      &quot;1973-Nixon&quot;      &quot;1977-Carter&quot;
+## [49] &quot;1981-Reagan&quot;     &quot;1985-Reagan&quot;     &quot;1989-Bush&quot;
+## [52] &quot;1993-Clinton&quot;    &quot;1997-Clinton&quot;    &quot;2001-Bush&quot;
+## [55] &quot;2005-Bush&quot;       &quot;2009-Obama&quot;      &quot;2013-Obama&quot;
 ## [58] &quot;2017-Trump&quot;
 paste(years, pres, collapse = '-')
 ## [1] &quot;1789 Washington-1793 Washington-1797 Adams-1801 Jefferson-1805 Jefferson-1809 Madison-1813 Madison-1817 Monroe-1821 Monroe-1825 Adams-1829 Jackson-1833 Jackson-1837 VanBuren-1841 Harrison-1845 Polk-1849 Taylor-1853 Pierce-1857 Buchanan-1861 Lincoln-1865 Lincoln-1869 Grant-1873 Grant-1877 Hayes-1881 Garfield-1885 Cleveland-1889 Harrison-1893 Cleveland-1897 McKinley-1901 McKinley-1905 Roosevelt-1909 Taft-1913 Wilson-1917 Wilson-1921 Harding-1925 Coolidge-1929 Hoover-1933 Roosevelt-1937 Roosevelt-1941 Roosevelt-1945 Roosevelt-1949 Truman-1953 Eisenhower-1957 Eisenhower-1961 Kennedy-1965 Johnson-1969 Nixon-1973 Nixon-1977 Carter-1981 Reagan-1985 Reagan-1989 Bush-1993 Clinton-1997 Clinton-2001 Bush-2005 Bush-2009 Obama-2013 Obama-2017 Trump&quot;</code></pre>
@@ -310,9 +310,9 @@ c2 %in% c1
 ## Document-feature matrix of: 1 document, 239 features (0% sparse).</code></pre>
 <p>Inspect the dimensions of the resulting objects, including the names of the words extracted as features. To get the “words” from a <strong>quanteda</strong> object, you can use the <code>featnames()</code> function:</p>
 <pre class="r"><code>featnames(sample_dfm) %&gt;% head(20)
-##  [1] &quot;instead&quot;     &quot;we&quot;          &quot;have&quot;        &quot;a&quot;           &quot;fine&quot;       
-##  [6] &quot;gael-labour&quot; &quot;party&quot;       &quot;government&quot;  &quot;,&quot;           &quot;coming&quot;     
-## [11] &quot;into&quot;        &quot;power&quot;       &quot;promising&quot;   &quot;real&quot;        &quot;change&quot;     
+##  [1] &quot;instead&quot;     &quot;we&quot;          &quot;have&quot;        &quot;a&quot;           &quot;fine&quot;
+##  [6] &quot;gael-labour&quot; &quot;party&quot;       &quot;government&quot;  &quot;,&quot;           &quot;coming&quot;
+## [11] &quot;into&quot;        &quot;power&quot;       &quot;promising&quot;   &quot;real&quot;        &quot;change&quot;
 ## [16] &quot;but&quot;         &quot;slavishly&quot;   &quot;following&quot;   &quot;the&quot;         &quot;previous&quot;</code></pre></li>
 <li><p>Keywords in context.</p>
 <p>Use the <code>kwic</code> function to discover the context of the word “clean”. Is this associated with environmental policy?</p>
@@ -320,11 +320,11 @@ c2 %in% c1
 <p>Examine the context of words <em>related to</em> “disaster”. Hint: you can use the stem of the word along with setting the <code>regex</code> argument to <code>TRUE</code>. Execute a query using a pattern match that returns different variations of words based on “disaster” (such as disasters, disastrous, disastrously, etc.).</p>
 <p>Load the text of Herman Melville’s <em>Moby Dick</em>. You can use the base R solution or alternatively install the <strong>readtext</strong> package and use its simpler interface. Use <code>kwic()</code> to search for “Ahab”, and save this object. Send it to <code>textplot_xray()</code>.</p>
 <pre class="r"><code># This is a base R solution to reading text from a URL
-mobydicktf &lt;- paste(readLines(&quot;http://kenbenoit.net/assets/files/pg2701.txt&quot;), collapse = &quot;\n&quot;)
+mobydicktf &lt;- paste(readLines(&quot;https://kenbenoit.net/assets/files/pg2701.txt&quot;), collapse = &quot;\n&quot;)
 
 # If you install the &quot;readtext&quot; package, you can use the following simpler code:
-# readtext::readtext(&quot;http://kenbenoit.net/assets/files/pg2701.txt&quot;)
-# Highly recommended if you plan to read 
+# readtext::readtext(&quot;https://kenbenoit.net/assets/files/pg2701.txt&quot;)
+# Highly recommended if you plan to read
 
 mobydickCorpus &lt;- corpus(mobydicktf, docvars = data.frame(doc_id = &quot;pg2701.txt&quot;))
 
@@ -343,10 +343,10 @@ require(quanteda)
 ## Loading required package: quanteda
 ## quanteda version 1.0.0
 ## Using 3 of 4 threads for parallel computing
-## 
+##
 ## Attaching package: 'quanteda'
 ## The following object is masked from 'package:utils':
-## 
+##
 ##     View</code></pre>
 <p>Here, the object <code>View</code> (a function) from the <strong>utils</strong> package – which is one of the standard packages that is always attached when you start R – has been superceded in priority in R’s “namespace” by another object (also a function) called <code>View</code> from the <strong>quanteda</strong> package. Compare the two using <code>?View</code>, where you should see two versions listed.</p>
 </div>

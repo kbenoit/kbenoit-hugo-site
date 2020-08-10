@@ -1,12 +1,12 @@
 /*****  MLM May 2011 Course - Ken Benoit
- *****  Example 
+ *****  Example
  *****  Answers
  *****/
 
 clear
 set mem 600m
 
-use http://www.kenbenoit.net/classes/mlm2011/ESSexample.dta
+use https://www.kenbenoit.net/classes/mlm2011/ESSexample.dta
 rename  q24R turnout
 rename t101 countryid
 preserve

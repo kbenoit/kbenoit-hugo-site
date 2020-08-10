@@ -90,4 +90,4 @@ Tel. +44 20 7955 6812
 Fax +353 1 677 0546  
 [kbenoit@lse.ac.uk](mailto:kbenoit@lse.ac.uk "Send me an e-mail")
 
-[Download Kenneth Benoit’s **C.V.** in .pdf format.](http://kenbenoit.net/pdfs/KenBenoitCV.pdf "CV in pdf format")
+[Download Kenneth Benoit’s **C.V.** in .pdf format.](/pdfs/KenBenoitCV.pdf "CV in pdf format")

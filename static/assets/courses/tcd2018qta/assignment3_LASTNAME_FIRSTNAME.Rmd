@@ -126,7 +126,7 @@ we will apply this to the same manifestos from the UK manifesto set.
 To do this, you will need to:
 
 *   download and save the Wordstat-formatted dictionary file
-    [LaverGarry.cat](http://www.kenbenoit.net/courses/essex2014qta/LaverGarry.cat);
+    [LaverGarry.cat](https://www.kenbenoit.net/courses/essex2014qta/LaverGarry.cat);
     
 *   load this into a dictionary list using `dictionary(file = "LaverGarry.cat", format = "wordstat")`;
 

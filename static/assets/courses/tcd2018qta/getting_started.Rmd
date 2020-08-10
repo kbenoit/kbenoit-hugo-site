@@ -233,10 +233,10 @@ It is common to "clean" texts before processing, usually by removing punctuation
 
     ```{r}
     # This is a base R solution to reading text from a URL
-    mobydicktf <- paste(readLines("http://kenbenoit.net/assets/files/pg2701.txt"), collapse = "\n")
+    mobydicktf <- paste(readLines("https://kenbenoit.net/assets/files/pg2701.txt"), collapse = "\n")
 
     # If you install the "readtext" package, you can use the following simpler code:
-    # readtext::readtext("http://kenbenoit.net/assets/files/pg2701.txt")
+    # readtext::readtext("https://kenbenoit.net/assets/files/pg2701.txt")
     # Highly recommended if you plan to read 
 
     mobydickCorpus <- corpus(mobydicktf, docvars = data.frame(doc_id = "pg2701.txt"))

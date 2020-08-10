@@ -3,7 +3,7 @@ author: Ken
 categories:
 - Administrative
 date: "2007-11-23T21:17:07Z"
-guid: http://www.kenbenoit.net/rootblog/?p=1
+guid: https://www.kenbenoit.net/rootblog/?p=1
 id: 1
 title: New web page
 url: /under-construction-notice/

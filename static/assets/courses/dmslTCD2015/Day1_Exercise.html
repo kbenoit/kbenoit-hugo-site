@@ -53,9 +53,9 @@ code {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.04);
 }
-img { 
-  max-width:100%; 
-  height: auto; 
+img {
+  max-width:100%;
+  height: auto;
 }
 </style>
 <div class="container-fluid main-container">
@@ -77,7 +77,7 @@ img {
 <ol style="list-style-type: decimal">
 <li><p>Execute and example the following object:</p>
 <pre class="r"><code>obj1_1 &lt;- read.table(text = &quot;
-                     a  b    c    d 
+                     a  b    c    d
                      1  2  4.3  Yes
                      3 4L  5.1   No
                      &quot;)</code></pre>
@@ -94,9 +94,9 @@ img {
 <li><p>Finally, make this object into a data.frame, using <code>data.frame</code>. Print the output. Does it look correct?</p></li>
 </ol></li>
 <li><p>Working with the <code>dplyr</code> package</p>
-<p>For this part and the next, you should work with the file <code>dail2002.dta</code> from the article Kenneth Benoit and Michael Marsh. 2008. “<a href="http://www.kenbenoit.net//pdfs/ajps_348.pdf">The Campaign Value of Incumbency: A New Solution to the Puzzle of Less Effective Incumbent Spending.</a>” <em>American Journal of Political Science</em> 52(4, October): 874-890.</p>
+<p>For this part and the next, you should work with the file <code>dail2002.dta</code> from the article Kenneth Benoit and Michael Marsh. 2008. “<a href="https://www.kenbenoit.net//pdfs/ajps_348.pdf">The Campaign Value of Incumbency: A New Solution to the Puzzle of Less Effective Incumbent Spending.</a>” <em>American Journal of Political Science</em> 52(4, October): 874-890.</p>
 <ol style="list-style-type: decimal">
-<li><p>Load the Stata dataset used in this paper, available <a href="http://www.kenbenoit.net/files/dail2002.dta">here</a>. To load this into R, you will need the <code>read.dta</code> command from the <code>foreign</code> package. (Note that you can load straight from the URL using this command.) Call this data object <code>dail2002</code>. What sort of object is this? How can you tell what sort of object it is?</p></li>
+<li><p>Load the Stata dataset used in this paper, available <a href="https://www.kenbenoit.net/files/dail2002.dta">here</a>. To load this into R, you will need the <code>read.dta</code> command from the <code>foreign</code> package. (Note that you can load straight from the URL using this command.) Call this data object <code>dail2002</code>. What sort of object is this? How can you tell what sort of object it is?</p></li>
 <li><p>Filtering: Select only the Fianna Fail candidates using <code>filter()</code>, and assign the filtered <code>data.frame</code> to <code>dail2002FF</code>. Note that you might want to first find out what are the labels for party by using <code>summary()</code> on the <code>party</code> variable.</p>
 <p>How many FF were there in the 2002 election?</p></li>
 <li><p>Summarizing FF candidates per constituency. On the new data frame <code>dail2002FF</code>, summarize the median spending (<code>spend_total</code>) for FF candidates using the <code>dplyr</code> function <code>summarise</code>. Use “pipes” for extra credit!</p>

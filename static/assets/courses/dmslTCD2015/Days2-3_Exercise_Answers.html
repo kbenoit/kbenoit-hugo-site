@@ -52,9 +52,9 @@ code {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.04);
 }
-img { 
-  max-width:100%; 
-  height: auto; 
+img {
+  max-width:100%;
+  height: auto;
 }
 </style>
 <div class="container-fluid main-container">
@@ -92,28 +92,28 @@ for (i in 1:k) {
     cat(startIndex, endIndex, &quot;\n&quot;)
     print(data[startIndex : endIndex, ])
 }</code></pre>
-<pre><code>## 1 5 
+<pre><code>## 1 5
 ##   myIndex letter
 ## 1       1      A
 ## 2       2      B
 ## 3       3      C
 ## 4       4      D
 ## 5       5      E
-## 6 10 
+## 6 10
 ##    myIndex letter
 ## 6        6      F
 ## 7        7      G
 ## 8        8      H
 ## 9        9      I
 ## 10      10      J
-## 11 15 
+## 11 15
 ##    myIndex letter
 ## 11      11      K
 ## 12      12      L
 ## 13      13      M
 ## 14      14      N
 ## 15      15      O
-## 16 20 
+## 16 20
 ##    myIndex letter
 ## 16      16      P
 ## 17      17      Q
@@ -127,13 +127,13 @@ for (i in 1:k) {
 <li><p>Fit a regression from the dataset to predict <code>votes1st</code>. You may use any combination of regressors that you wish. Save the model object to <code>reg2_1</code>.</p>
 <pre class="r"><code>require(foreign)</code></pre>
 <pre><code>## Loading required package: foreign</code></pre>
-<pre class="r"><code>dail2002 &lt;- read.dta(&quot;http://www.kenbenoit.net/files/dail2002.dta&quot;)
+<pre class="r"><code>dail2002 &lt;- read.dta(&quot;https://www.kenbenoit.net/files/dail2002.dta&quot;)
 reg2_1 &lt;- lm(votes1st ~ incumb:spend_total + senator + gender + electorate, data=dail2002)</code></pre></li>
 <li><p>Predict the <code>votes1st</code> from the same sample to which you fitted the regression. What is the Root Mean Squared Error (RMSE) and how would you interpret this?</p>
 <pre class="r"><code>length(predict(reg2_1))   # shortened to 462 because of the two missing cases</code></pre>
 <pre><code>## [1] 462</code></pre>
 <pre class="r"><code># refit model with different behaviour for na.action
-reg2_1 &lt;- lm(votes1st ~ incumb*spend_total + senator + gender + electorate, 
+reg2_1 &lt;- lm(votes1st ~ incumb*spend_total + senator + gender + electorate,
              data=dail2002, na.action=na.exclude)
 reg2_1pred &lt;- predict(reg2_1)
 length(reg2_1pred)  # now includes missing cases</code></pre>
@@ -148,33 +148,33 @@ computeRMSE(reg2_1)</code></pre>
 <pre><code>## [1] 1799.031</code></pre>
 <pre class="r"><code># compare to output from summary()
 summary(reg2_1)</code></pre>
-<pre><code>## 
+<pre><code>##
 ## Call:
-## lm(formula = votes1st ~ incumb * spend_total + senator + gender + 
+## lm(formula = votes1st ~ incumb * spend_total + senator + gender +
 ##     electorate, data = dail2002, na.action = na.exclude)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -5769.3  -960.1  -189.1   891.2  7071.7 
-## 
+##     Min      1Q  Median      3Q     Max
+## -5769.3  -960.1  -189.1   891.2  7071.7
+##
 ## Coefficients:
-##                      Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)         5.326e+02  4.115e+02   1.294   0.1962    
+##                      Estimate Std. Error t value Pr(&gt;|t|)
+## (Intercept)         5.326e+02  4.115e+02   1.294   0.1962
 ## incumb              4.419e+03  4.782e+02   9.241  &lt; 2e-16 ***
 ## spend_total         2.075e-01  1.166e-02  17.797  &lt; 2e-16 ***
-## senator            -5.473e+02  6.519e+02  -0.840   0.4016    
-## genderf            -5.023e+02  2.193e+02  -2.290   0.0225 *  
-## electorate          1.407e-04  5.279e-03   0.027   0.9787    
+## senator            -5.473e+02  6.519e+02  -0.840   0.4016
+## genderf            -5.023e+02  2.193e+02  -2.290   0.0225 *
+## electorate          1.407e-04  5.279e-03   0.027   0.9787
 ## incumb:spend_total -1.074e-01  2.250e-02  -4.773 2.45e-06 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 1799 on 455 degrees of freedom
 ##   (2 observations deleted due to missingness)
-## Multiple R-squared:  0.6675, Adjusted R-squared:  0.6631 
+## Multiple R-squared:  0.6675, Adjusted R-squared:  0.6631
 ## F-statistic: 152.2 on 6 and 455 DF,  p-value: &lt; 2.2e-16</code></pre></li>
 <li><p>Drop the incumbency variable – that you hopefully included in your answer to 2.1! – and repeat steps 2.1–2.2. Compute a new RMSE and compare this to the previous one. Which is a better predictor?</p>
-<pre class="r"><code>reg2_3 &lt;- lm(votes1st ~ spend_total + senator + gender + electorate, 
+<pre class="r"><code>reg2_3 &lt;- lm(votes1st ~ spend_total + senator + gender + electorate,
              data=dail2002, na.action=na.exclude)
 computeRMSE(reg2_3)</code></pre>
 <pre><code>## [1] 2061.288</code></pre>
@@ -192,7 +192,7 @@ computeRMSE(reg2_3)</code></pre>
 </ul>
 <pre class="r"><code>wonseat_predicted &lt;- ifelse(predict(reg3_1) &gt; 0, 1, 0)
 (predtable &lt;- table(wonseat_predicted, dail2002$wonseat))</code></pre>
-<pre><code>##                  
+<pre><code>##
 ## wonseat_predicted   0   1
 ##                 0 267  65
 ##                 1  30 100</code></pre>
@@ -214,19 +214,19 @@ precrecall &lt;- function(mytable, verbose=TRUE) {
     recall &lt;- truePositives / (truePositives + falseNegatives)
     if (verbose) {
         print(mytable)
-        cat(&quot;\n precision =&quot;, round(precision, 2), 
+        cat(&quot;\n precision =&quot;, round(precision, 2),
             &quot;\n    recall =&quot;, round(recall, 2), &quot;\n&quot;)
     }
     invisible(c(precision, recall))
 }
 # compute precision of wonseat (not lost seat!)
 precrecall(predtable[2:1, 2:1])</code></pre>
-<pre><code>##                  
+<pre><code>##
 ## wonseat_predicted   1   0
 ##                 1 100  30
 ##                 0  65 267
-## 
-##  precision = 0.77 
+##
+##  precision = 0.77
 ##     recall = 0.61</code></pre></li>
 <li><p>Comparing two models.</p>
 <ul>
@@ -238,7 +238,7 @@ foldIndex &lt;- rep(1:8, each = nrow(dail2002)/8)
 f1result &lt;- c()
 # loop over folds
 for (i in 1:8) {
-    glmresult &lt;- glm(wonseat ~ incumb:spend_total + senator + gender + electorate, 
+    glmresult &lt;- glm(wonseat ~ incumb:spend_total + senator + gender + electorate,
                      na.action = na.exclude, family = &quot;binomial&quot;,
                      data = subset(dail2002, foldIndex != i))
     wonseatPred &lt;- ifelse(predict(glmresult, newdata = subset(dail2002, foldIndex == i)) &gt; 0, 1, 0)
@@ -257,7 +257,7 @@ f1result</code></pre>
 <pre class="r"><code>f1result &lt;- c()
 # loop over folds
 for (i in 1:8) {
-    glmresult &lt;- glm(wonseat ~ spend_total + senator + gender + electorate, 
+    glmresult &lt;- glm(wonseat ~ spend_total + senator + gender + electorate,
                      na.action = na.exclude, family = &quot;binomial&quot;,
                      data = subset(dail2002, foldIndex != i))
     wonseatPred &lt;- ifelse(predict(glmresult, newdata = subset(dail2002, foldIndex == i)) &gt; 0, 1, 0)
@@ -295,8 +295,8 @@ precrecall(table(knnPred, wonseatf)[2:1, 2:1])</code></pre>
 ## knnPred Yes  No
 ##     Yes 165   0
 ##     No    0 297
-## 
-##  precision = 1 
+##
+##  precision = 1
 ##     recall = 1</code></pre></li>
 <li><p>Experiment with two more settings of <span class="math">\(k\)</span> to see how this affects prediction, reporting the percent correctly predicted.</p>
 <pre class="r"><code># k = 2
@@ -305,8 +305,8 @@ precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2
 ##       Yes  No
 ##   Yes 130  37
 ##   No   35 260
-## 
-##  precision = 0.78 
+##
+##  precision = 0.78
 ##     recall = 0.79</code></pre>
 <pre class="r"><code># k = 3
 precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2:1])</code></pre>
@@ -314,8 +314,8 @@ precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2
 ##       Yes  No
 ##   Yes 127  31
 ##   No   38 266
-## 
-##  precision = 0.8 
+##
+##  precision = 0.8
 ##     recall = 0.77</code></pre>
 <pre class="r"><code># k = 4
 precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2:1])</code></pre>
@@ -323,8 +323,8 @@ precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2
 ##       Yes  No
 ##   Yes 133  34
 ##   No   32 263
-## 
-##  precision = 0.8 
+##
+##  precision = 0.8
 ##     recall = 0.81</code></pre>
 <pre class="r"><code># k = 4
 precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2:1])</code></pre>
@@ -332,8 +332,8 @@ precrecall(table(knnPred &lt;- knn(train, test, wonseatf, k=2), wonseatf)[2:1, 2
 ##       Yes  No
 ##   Yes 125  42
 ##   No   40 255
-## 
-##  precision = 0.75 
+##
+##  precision = 0.75
 ##     recall = 0.76</code></pre>
 <p>We can also plot precision by recall to get an ROC curve-type plot, to evaluate performance at each level of <code>k</code>. Note that this will not produce “curves” because we are not fitting to different folds or datasets, just once to recover the predictions from the whole training set.</p>
 <pre class="r"><code>maxk &lt;- 10

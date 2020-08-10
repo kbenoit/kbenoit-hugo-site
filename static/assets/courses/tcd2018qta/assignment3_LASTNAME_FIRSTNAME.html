@@ -368,12 +368,12 @@ myDfm
 <p>Here we will create and implement the populism dictionary from Rooduijn, Matthijs, and Teun Pauwels (2011) “Measuring Populism: Comparing Two Methods of Content Analysis.” <em>West European Politics</em> 34(6): 1272–83. Appendix B of that paper provides the term entries for a dictionary key for the concept <em>populism</em>. Implement this as a dictionary, and apply it to the same UK manifestos as in the article.</p>
 <p>Hint: You can get a corpus of the UK manifestos from their article using the following:</p>
 <pre class="r"><code>data(data_corpus_ukmanifestos, package = &quot;quanteda.corpora&quot;)
-ukPopCorpus &lt;- corpus_subset(data_corpus_ukmanifestos, 
-                             (Year %in% c(1992, 2001, 2005) &amp; 
+ukPopCorpus &lt;- corpus_subset(data_corpus_ukmanifestos,
+                             (Year %in% c(1992, 2001, 2005) &amp;
                                   (Party %in% c(&quot;Lab&quot;, &quot;LD&quot;, &quot;Con&quot;, &quot;BNP&quot;, &quot;UKIP&quot;))))
 summary(ukPopCorpus)
 ## Corpus consisting of 11 documents:
-## 
+##
 ##                  Text Types Tokens Sentences Country Type Year Language
 ##   UK_natl_1992_en_Con  4671  33124      1588      UK natl 1992       en
 ##   UK_natl_1992_en_Lab  2374  12565       619      UK natl 1992       en
@@ -398,7 +398,7 @@ summary(ukPopCorpus)
 ##    Lab
 ##     LD
 ##   UKIP
-## 
+##
 ## Source: /Users/kbenoit/Dropbox/QUANTESS/quantedaData_kenlocal_gh/* on x86_64 by kbenoit
 ## Created: Sat Nov 15 18:43:36 2014
 ## Notes:</code></pre>
@@ -410,7 +410,7 @@ summary(ukPopCorpus)
 <p>Here, we will apply the dictionary of Laver, Michael, and John Garry. 2000. “Estimating Policy Positions From Political Texts.” <em>American Journal of Political Science</em> 44(3): 619–34. Using the pre-built Laver and Garry (2000) dictionary file, which is distributed by Provalis Research for use with its <a href="http://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/laver-garry-dictionary-of-policy-position/">Wordstat software package from Provalis</a>, we will apply this to the same manifestos from the UK manifesto set.<br />
 To do this, you will need to:</p>
 <ul>
-<li><p>download and save the Wordstat-formatted dictionary file <a href="http://www.kenbenoit.net/courses/essex2014qta/LaverGarry.cat">LaverGarry.cat</a>;</p></li>
+<li><p>download and save the Wordstat-formatted dictionary file <a href="https://www.kenbenoit.net/courses/essex2014qta/LaverGarry.cat">LaverGarry.cat</a>;</p></li>
 <li><p>load this into a dictionary list using <code>dictionary(file = &quot;LaverGarry.cat&quot;, format = &quot;wordstat&quot;)</code>;</p></li>
 <li><p>build a dfm for the corpus subset for the Labour, Liberal Democrat, and Conservative Party manifestos from 1992 and 1997; and</p></li>
 <li><p>try to replicate their measures from the “Computer” column of Table 2, for Economic Policy. (Not as easy as you thought—any ideas as to why?)</p></li>

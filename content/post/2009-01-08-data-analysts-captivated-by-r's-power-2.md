@@ -5,7 +5,7 @@ categories:
 date: "2009-01-08T11:36:43Z"
 id: 798
 title: Data Analysts Captivated by R’s Power
-url: /data-analysts-captivated-by-r%e2%80%99s-power-2/
+url: /data-analysts-captivated-by-rs-power-2/
 ---
 Here&#8217;s a recent article published in the New York Times about [**R**](http://www.r-project.org), the freely available statistical package:
 

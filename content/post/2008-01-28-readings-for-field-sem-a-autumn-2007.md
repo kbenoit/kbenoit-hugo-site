@@ -4,7 +4,7 @@ categories:
 - Field Seminar
 date: "2008-01-28T12:19:21Z"
 id: 15
-title: Readings for Field Sem. B &#8211; Autumn 2007
+title: Readings for Field Sem. B – Autumn 2007
 url: /readings-for-field-sem-a-autumn-2007/
 ---
 ### Week 2: Electoral System Origins

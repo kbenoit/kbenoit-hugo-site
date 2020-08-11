@@ -4,7 +4,7 @@ categories:
 - Field Seminar
 date: "2008-09-25T11:37:24Z"
 id: 68
-title: PO7003 Field Seminar A in Political Science &#8211; 2008-09
+title: PO7003 Field Seminar A in Political Science – 2008-09
 url: /field-seminar-a-2008-2009-week-1-readings/
 ---
 

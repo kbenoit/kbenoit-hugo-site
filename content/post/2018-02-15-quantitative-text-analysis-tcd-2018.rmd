@@ -8,14 +8,14 @@ date: "2018-02-15T15:30:30Z"
 id: 1460
 title: Quantitative Text Analysis (TCD 2018)
 url: /quantitative-text-analysis-tcd-2018/
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 **When and where:** 16 February, 23 February, 9 March, 16 March, 23 March 2018; Arts Building 3020.
 
 **Instructor:** Professor Kenneth Benoit, kbenoit@tcd.ie.  Assignment marking by [Stefan Muüller](MULLERS@tcd.ie).
-
-* This will become a table of contents (this text will be scraped).
-{:toc}
 
 
 ## Overview
@@ -26,7 +26,7 @@ The course surveys methods for systematically extracting quantitative informati
 
 The course is also designed to cover many fundamental issues in quantitative text analysis such as inter-coder agreement, reliability, validation, accuracy, and precision. It focuses on methods of converting texts into quantitative matrixes of features, and then analysing those features using statistical methods. The course briefly covers the qualitative technique of human coding and an- notation but only for the purposes of creating a validation set for automated approaches. These automated approaches include dictionary construction and application, classification and machine learning, scaling models, and topic models. For each topic, we will systematically cover published applications and examples of these methods, from a variety of disciplinary and applied fields but focusing on political science. Lessons will consist of a mixture of theoretical grounding in content analysis approaches and techniques, with hands on analysis of real texts using content analytic and statistical software.
 
-## Detailed Course Schedule
+## Detailed Course Schedule
 
 ### [Week 1: Introduction and issues in quantitative text analysis](/assets/courses/tcd2018qta/QTA_TCD_Day1.pdf)
 
@@ -41,7 +41,6 @@ analysis; and definitions of features and measures commonly extracted
 from texts, including stemming, and stop-words.
 
 #### Required Reading
-{:.no_toc}
 
 - Vignette and instructions at https://docs.quanteda.io  
 - Tutorials at https://tutorials.quanteda.io/  
@@ -51,7 +50,6 @@ from texts, including stemming, and stop-words.
 - Dunning (1993)  
 
 #### Recommended Reading
-{:.no_toc}
 
 - Krippendorff (2013, Ch. 1–2, 5, 7)  
 - Wikipedia entry on Character encoding, http://en.wikipedia.org/wiki/Text_encoding  
@@ -61,7 +59,6 @@ from texts, including stemming, and stop-words.
 - Däubler et al. (2012)
 
 #### Resources
-{:.no_toc}
 
 * [Week 1 slides](/assets/courses/tcd2018qta/QTA_TCD_Day1.pdf)  
 * [Getting Started with quanteda and R](/assets/courses/tcd2018qta/getting_started.html) and the [`.Rmd` source](/assets/courses/tcd2018qta/getting_started.Rmd), which you should save and try to knit
@@ -73,19 +70,16 @@ from texts, including stemming, and stop-words.
 Here we focus on quantitative methods for describing texts, focusing on summary measures that highlight particular characteristics of documents and allowing these to be compared. These meth- ods include characterizing texts through concordances, co-occurrences, and keywords in context; complexity and readability measures; and an in-depth discussion of text types, tokens, and equiv- alencies. We will also discuss weighting strategies for features, such as tf-idf. The emphasis will be on comparing texts, through concordances and keyword identification, dissimilarity measures, association models, and vector-space models.
 
 #### Required Reading
-{:.no_toc}
 
 - Krippendorff (2013, Ch. 10)  
 - Lowe et al. (2011)  
 - Manning, Raghavan and Schütze (2008, Section 6.3)
 
 #### Recommended Reading
-{:.no_toc}
 
 - Seale, Ziebland and Charteris-Black (2006)
 
 #### Resources
-{:.no_toc}
 
 - [Week 2 slides](/assets/courses/tcd2018qta/QTA_TCD_Day2.pdf)
 - [Exercise 2: Describing and comparing texts and their features](/assets/courses/tcd2018qta/assignment2_LASTNAME_FIRSTNAME.html) and [`.Rmd` source](https://cdn.rawgit.com/kbenoit/kbenoit.github.io/73accef5/assets/courses/tcd2018qta/assignment2_LASTNAME_FIRSTNAME.Rmd)
@@ -96,21 +90,18 @@ Here we focus on quantitative methods for describing texts, focusing on summary 
 Automatic dictionary-based methods involve association of pre-defined word lists with particular quantitative values assigned by the researcher for some characteristic of interest. This topic covers the design model behind dictionary construction, including guidelines for testing and refining dic- tionaries. Hand-on work will cover commonly used dictionaries such as LIWC, RID, and the Harvard IV-4, with applications. We will also review a variety of text pre-processing issues and textual data concepts such as word types, tokens, and equivalencies, including word stemming and trimming of words based on term and/or document frequency.
 
 #### Required Reading
-{:.no_toc}
 
 - Neuendorf (2002, Ch. 6)  
 - Laver and Garry (2000)  
 - Rooduijn and Pauwels (2011)
 
 #### Recommended Reading
-{:.no_toc}
 
 - Pennebaker and Chung (2008)  
 - Tausczik and Pennebaker (2010)  
 - Loughran and McDonald (2011)  
 
 #### Resources
-{:.no_toc}
 
 - [Week 3 slides](/assets/courses/tcd2018qta/QTA_TCD_Day3.pdf)  
 - [Exercise 3: Applying, modifying, and creating dictionaries for the analysis of political texts.](/assets/courses/tcd2018qta/assignment3_LASTNAME_FIRSTNAME.html) and [`.Rmd` source](https://cdn.rawgit.com/kbenoit/kbenoit.github.io/3ef69b09/assets/courses/tcd2018qta/assignment3_LASTNAME_FIRSTNAME.Rmd)
@@ -121,19 +112,16 @@ Automatic dictionary-based methods involve association of pre-defined word lists
 Classification methods permit the automatic classification of texts in a test set following machine learning from a training set. We will introduce machine learning methods for classifying documents, including one of the most popular classifiers, the Naive Bayes model. The topic also introduces validation and reporting methods for classifiers and discusses where these methods are applicable. Building on the Naive Bayes classifier, we introduce the “Wordscores” method of Laver, Benoit and Garry (2003) for scaling latent traits, and show the link between classification and scaling. We also cover applications of penalized regression to score and scale texts.
 
 #### Resources
-{:.no_toc}
 
 - [Week 4 slides](/assets/courses/tcd2018qta/QTA_TCD_Day4.pdf)  
 - [Exercise 4: Machine learning and scaling for texts.](/assets/courses/tcd2018qta/assignment4_LASTNAME_FIRSTNAME.html) and [`.Rmd` source](https://cdn.rawgit.com/kbenoit/kbenoit.github.io/5fb4ba46/assets/courses/tcd2018qta/assignment4_LASTNAME_FIRSTNAME.Rmd)
 
 #### Required Reading
-{:.no_toc}
 
 - Manning, Raghavan and Schütze (2008, Ch. 13)  
 - Lantz (2013, Ch. 3–4)  
 
 #### Recommended Reading
-{:.no_toc}
 
 - Lantz (2013, Ch. 10)  
 - Statsoft, "Naive Bayes Classifier Introductory Overview," http://www.statsoft.com/textbook/naive-bayes-classifier/.  
@@ -152,14 +140,12 @@ Classification methods permit the automatic classification of texts in a test se
 Building on the Naive Bayes classifier, we introduce the “Wordscores” method of Laver, Benoit and Garry (2003) for scaling latent traits, and show the link between classification and scaling.  We also cover the unsupervised "Wordfish" scaling method of Slapin and Proksch (2008).
 
 #### Required Reading
-{:.no_toc}
 
 - Evans et al. (2007)  
 - Laver, Benoit and Garry (2003)  
 - Slapin and Proksch (2008)
 
 #### Recommended Reading
-{:.no_toc}
 
 * Beil, Ester and Xu (2002)
 * Chang et al. (2009)
@@ -170,7 +156,6 @@ Building on the Naive Bayes classifier, we introduce the “Wordscores” method
 * Zumel and Mount (2014, Ch. 8)
 
 #### Resources
-{:.no_toc}
 
 - [Exercise 5: Classifying legal documents and legislative speeches.](/assets/courses/tcd2018qta/exercise5.html)  
 
@@ -178,12 +163,10 @@ Building on the Naive Bayes classifier, we introduce the “Wordscores” method
 ## Final Assignment
 
 #### Project Guidelines
-{:.no_toc}
 
 The final project is a written analysis of approximately 4,000-5,000 words. The project replaces a final exam, and is designed to give you a chance to analyze a set of texts that you have chosen, reflecting (hopefully) your own research interests. This can be, and probably makes the most sense to be, textual data from something you are already studying. Which texts you choose, what question you investigate, and how you analyze the texts is your choice, but you must justify the choice.
 
 #### Content
-{:.no_toc}
 
 Your content should include the following:
 
@@ -197,12 +180,10 @@ Your content should include the following:
 8.  Conclusions. What conclusions on the question can we draw from the results?
 
 #### Formatting
-{:.no_toc}
 
 There is no rigid set of guidelines, but you should use a Chicago manual of style compatible referencing system (parenthetical references rather than footnotes). Tables should be formatted rather than consisting of pasted output from a statistical package. Think of trying to look (roughly) as if you were formatting a journal article.
 
 #### Deadline
-{:.no_toc}
 
 30 April 2018, 5pm, by email to [kbenoit@tcd.ie](mailto:kbenoit@tcd.ie).
 

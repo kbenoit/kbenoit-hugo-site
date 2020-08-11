@@ -5,7 +5,7 @@ categories:
 - Uncategorized
 date: "2010-04-21T06:29:35Z"
 id: 799
-title: Hungary&#039;s Fidesz will win a Two-Thirds Majority of Seats on April 25
+title: Hungary's Fidesz will win a Two-Thirds Majority of Seats on April 25
 url: /hungarys-fidesz-will-win-a-two-thirds-majority-of-seats-on-april-25-2/
 ---
 My forecast of the final parliamentary seat distribution for the Hungarian elections is the following:

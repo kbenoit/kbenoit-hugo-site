@@ -139,7 +139,7 @@ Part of an annual event jointly sponsored by the Institute for Quantitative Soci
 
 **FULL LIST OF PARTICIPANTS**
 
-<table dir="ltr" width="482" border="0" cellspacing="0" cellpadding="0">
+<table dir="ltr" border="0" cellspacing="0" cellpadding="0">
   <colgroup> <col width="146" /> <col width="336" /> </colgroup> <tr>
     <td width="146" height="16">
       **Name**

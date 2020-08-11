@@ -4,7 +4,7 @@ categories:
 - Latest research
 date: "2008-10-15T13:27:12Z"
 id: 797
-title: TCD political science on a par with &quot;best of Britain&quot;
+title: TCD political science on a par with "best of Britain";
 url: /tcd-political-science-on-a-par-with-best-of-britain-2/
 ---
 

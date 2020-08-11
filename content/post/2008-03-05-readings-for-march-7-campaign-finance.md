@@ -4,7 +4,7 @@ categories:
 - Field Seminar
 date: "2008-03-05T14:08:23Z"
 id: 19
-title: Readings for March 7 &#8211; Campaign Finance
+title: Readings for March 7 – Campaign Finance
 url: /readings-for-march-7-campaign-finance/
 ---
 ### March 7 &#8211; Campaign Finance and the Effects of Spending

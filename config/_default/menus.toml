@@ -5,32 +5,32 @@
 
 [[main]]
   name = "Posts"
-  url = "posts"
+  url = "/posts/"
   weight = 10
 
 [[main]]
   name = "Brief bio"
-  url = "bio"
+  url = "/bio/"
   weight = 20
 
 [[main]]
   name = "C.V."
-  url = "cv"
+  url = "/cv/"
   weight = 30
 
 [[main]]
   name = "Publications"
-  url = "cvs/publications"
+  url = "/cvs/publications/"
   weight = 40
 
 [[main]]
   name = "Software"
-  url = "software"
+  url = "/software/"
   weight = 50
 
 [[main]]
   name = "Associates"
-  url = "associates"
+  url = "/associates/"
   weight = 60
 
 

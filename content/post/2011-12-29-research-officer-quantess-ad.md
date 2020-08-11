@@ -10,7 +10,8 @@ url: /research-officer-quantess-ad/
 ---
 
 
-Job opening:  _Research Officer in Quantitative Text Analysis_
+Job opening:
+_Research Officer in Quantitative Text Analysis_
 
 
 

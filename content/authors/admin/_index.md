@@ -44,13 +44,19 @@ organizations:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:k.r.benoit@lse.ac.uk'
+  link: 'mailto:K.R.benoit@lse.ac.uk'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/kenbenoit
+- icon: instagram
+  icon_pack: fab
+  link: https://instagram.com/kenbenoitphotos
 # - icon: google-scholar
 #   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#   link: https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ&hl=en
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0002-0797-564X
 - icon: github
   icon_pack: fab
   link: https://github.com/kbenoit
@@ -73,7 +79,7 @@ user_groups:
 - Visitors
 ---
 
-Kenneth Benoit is currently Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx) at the [London School of Economics and Political Science](http://www.lse.ac.uk/).  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
+Kenneth Benoit is currently Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx) at the [London School of Economics and Political Science](http://www.lse.ac.uk/).  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
 
 He received his Ph.D. (1998) from Harvard University, Department of Government.
 
@@ -88,6 +94,6 @@ London WC2A 2AE
 UK  
 Tel. +44 20 7955 6812  
 Fax +353 1 677 0546  
-[kbenoit@lse.ac.uk](mailto:kbenoit@lse.ac.uk "Send me an e-mail")
+[kbenoit@lse.ac.uk](mailto:K.R.Benoit@lse.ac.uk "Send me an e-mail")
 
 [Download Kenneth Benoit’s **C.V.** in .pdf format.](/pdfs/KenBenoitCV.pdf "CV in pdf format")

@@ -4,29 +4,29 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Posts"
+  name = "Blog"
   url = "/posts/"
-  weight = 10
+  weight = 50
 
 [[main]]
-  name = "Brief bio"
-  url = "/bio/"
-  weight = 20
+  name = "About"
+  url = "/"
+  weight = 10
 
 [[main]]
   name = "C.V."
   url = "/cv/"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Publications"
   url = "/cvs/publications/"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Software"
   url = "/software/"
-  weight = 50
+  weight = 40
 
 [[main]]
   name = "Associates"

@@ -12,10 +12,8 @@ author = "admin"
 ### Current Ph.D. students
 
 *   Christian Mueller (LSE)
-*   Tom Paskhalis (LSE)
 *   Jan Stuckatz (LSE)
 *   Julia Leschke (LSE)
-*   Alan Duggan (TCD)
 
 ### Current Post-Docs
 
@@ -27,6 +25,7 @@ author = "admin"
 *   [Alexander Baturo](https://www.dcu.ie/law_and_government/people/alex-baturo.shtml) (2008), Dublin City University
 *   [Francesco Cavatorta](https://www.pol.ulaval.ca/?pid=1555) (2003), Professor, Université Laval
 *   Ed Coughlan (2015), Trinity College Dublin
+*   Alan Duggan (2020), Trinity College Dublin.
 *   [Jos Elkink](https://people.ucd.ie/jos.elkink) (2009), Associate Professor, University College Dublin
 *   Karen Gilland (2001)
 *   [Anna Gwiazda](https://www.kcl.ac.uk/people/anna-gwiazda) (2004), Senior Lecturer, King’s College, London
@@ -40,18 +39,19 @@ author = "admin"
 *   [Matthew Wall](https://www.swansea.ac.uk/staff/arts-and-humanities/academic/wallm/) (2010), Senior Lecturer, University of Swansea
 *   [Thomas Däubler](http://www.mzes.uni-mannheim.de/d7/en/profiles/thomas-daubler "Thomas Däubler")(2012), Post-doc Fellow, MZES Mannheim
 *   [Raimondas Ibenskas](https://www.uib.no/en/persons/Raimondas.Ibenskas) (2012), Associate Professor, University of Bergen
+*   [Tom Paskhalis](https://tom.paskhal.is/) (2020).  Postdoctoral Fellow, Center for Social Media and Politics, New York University.
 *   [Carolina Plescia](https://carolinaplescia.wordpress.com/) (2013). Assistant Professor, University of Vienna, Winner of the 2014 ECPR Jen Blondel prize for the best PhD thesis in politics.
 *   Catherine Riordan (2013)
 *   Magda Staniek (2013)
-*   Brenda Van Coppenolle (2014), Assistant Professor, University of Leiden
+*   Brenda Van Coppenolle (2014), Assistant Professor, University of Essex
 *   Kohei Watanabe (2017), Assistant Professor, University of Innsbruck
 
 ### Alumni: Post-Docs
 
-*   [Marina McGale](mailto:elagcmm@gmail.com "Marina McGale")
-*   [William Lowe](http://conjugateprior.org), Princeton University
-*   [Paul Nulty](http://www.crassh.cam.ac.uk/people/profile/dr3), University of Cambridge
-*   Haiyan Wang
+*   [Marina McGale](mailto:elagcmm@gmail.com "Marina McGale"), Australian National University
+*   [William Lowe](http://conjugateprior.org), Hertie School of Governance
+*   [Paul Nulty](https://github.com/pnulty), University College Dublin
+*   Haiyan Wang, DeBeers
 *   Gokhan Ciflikli
 *   Kohei Watanabe
 

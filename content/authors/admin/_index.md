@@ -51,12 +51,12 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://instagram.com/kenbenoitphotos
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ&hl=en
-# - icon: orcid
-#   icon_pack: ai
-#   link: https://orcid.org/0000-0002-0797-564X
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ&hl=en
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-0797-564X
 - icon: github
   icon_pack: fab
   link: https://github.com/kbenoit
@@ -65,9 +65,9 @@ social:
   link: https://stackoverflow.com/users/4158274/ken-benoit
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: pdfs/KenBenoitCV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -79,7 +79,7 @@ user_groups:
 - Visitors
 ---
 
-Kenneth Benoit is currently Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx) at the [London School of Economics and Political Science](http://www.lse.ac.uk/).  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
+Kenneth Benoit is Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx) at the [London School of Economics and Political Science](http://www.lse.ac.uk/), and Professor (Part-time) in the School of Politics and International Relations, Australian National University.  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
 
 He received his Ph.D. (1998) from Harvard University, Department of Government.
 
@@ -94,6 +94,6 @@ London WC2A 2AE
 UK  
 Tel. +44 20 7955 6812  
 Fax +353 1 677 0546  
-[kbenoit@lse.ac.uk](mailto:K.R.Benoit@lse.ac.uk "Send me an e-mail")
+[K.R.Benoit@lse.ac.uk](mailto:K.R.Benoit@lse.ac.uk "Send me an e-mail")
 
 [Download Kenneth Benoit’s **C.V.** in .pdf format.](/pdfs/KenBenoitCV.pdf "CV in pdf format")

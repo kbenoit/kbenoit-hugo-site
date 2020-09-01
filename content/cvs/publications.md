@@ -147,6 +147,8 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 ### Book Chapters
 
+2020\.  Benoit, Kenneth. "[Text as Data: An Overview](/pdfs/CUIRINI_FRANZESE_Ch26.pdf)."  In Cuirini, Luigi and Robert Franzese, eds. _Handbook of Research Methods in Political Science and International Relations_.  Thousand Oaks: Sage. pp461-497.
+
 2019\.  Benoit, Kenneth, Kevin Munger, and Arthur Spirling.  "Dumbing Down? Trends in the Complexity of Political Communication." In Frances Lee and Nolan McCarty eds., _Can America Govern Itself?_.  Cambridge:  Cambridge University Press.  pp220-236.
 
 2017\.  Benoit, Kenneth and Alexander Herzog.  "Text Analysis:

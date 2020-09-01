@@ -213,6 +213,8 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 ### Conference Papers and Unpublished Papers
 
+2017\.  Perry, Patrick and Kenneth Benoit.  "[Scaling Text with the Class Affinity Model](http://arxiv.org/abs/1710.08963)."  London School of Economics and New York University manuscript. 
+
 2007 (with Michael Laver and Slava Mikhaylov). "Mapping Policy Preferences with Uncertainty: Measuring and Correcting Error in Comparative Manifesto Project Estimates." Paper presented at the 2007 Annual Meeting of the American Political Science Association, Chicago, 30 August-2 September.
 
 2005 (with Alex Baturo). "National Party Competition and Support for European Integration." Presented at the ECPR General Conference, 8-10 September 2005, Budapest, Hungary.

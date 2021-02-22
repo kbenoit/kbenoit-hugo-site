@@ -1,7 +1,6 @@
 ---
 title: Publications
 summary: Publications
-date: "2020-08-09T00:00:00Z"
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?

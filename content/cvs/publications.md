@@ -38,7 +38,7 @@ header:
 2015\. Laver, Michael and Kenneth Benoit. "[The Basic Arithmetic of Legislative Decisions](/pdfs/Basic_arithmetic_LaverBenoit_2012_final.pdf "The basic arithmetic of legislative decisions (preprint)")." _**American Journal of Political Science**_ 59(2, April): 275-291. [10.1111/ajps.12111](https://doi.org/10.1111/ajps.12111) [Presentation](https://www.icloud.com/iw/#keynote/BALPcQwc1Vgs5415CPGBOONq3_-dp4hD4O2E/Integer_Arithmetic).  [On-line legislative type calculator](https://kbenoit.shinyapps.io/legislativetypes/).
 
 2013\. Lowe, Will and Kenneth Benoit. "[Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark](/pdfs/Political Analysis-2013-Lowe-298-313.pdf)." **_Political Analysis_** 21: 298–313. [10.1093/pan/mpt002](
-https://doi.org/10.1093/pan/mpt002) Replication materials available soon from the [Political Analysis dataverse](https://hdl.handle. net/1902.1/20387).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
+https://doi.org/10.1093/pan/mpt002) Replication materials available from the [Political Analysis dataverse](https://hdl.handle.net/1902.1/20387).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
 2012\. Däubler, Thomas, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Natural Sentences as Valid Units for Coded Political Texts](/pdfs/Daubler_etal_2012.pdf)." **_British Journal of Political Science_**. 42(4): 937–951\. [10.1017/S0007123412000105](https://doi.org/10.1017/S0007123412000105) [Coding instructions for the unitization study](/pdfs/Coding%20Instructions%20for%20Unitization%20Study.pdf).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
@@ -48,13 +48,13 @@ https://doi.org/10.1093/pan/mpt002) Replication materials available soon from th
 
 2012\. McElroy, Gail and Kenneth Benoit. "[Policy Positioning in the European Parliament](/pdfs/European%20Union%20Politics-2012-McElroy-150-67.pdf)." _**European Union Politics**_. 13(1): 150-167. [Web-based appendix here](/pdfs/MEPS2010_EUP_Appendix.pdf).
 
-2012\. Mikhaylov, Slava, Michael Laver, and Kenneth Benoit. "[Coder Reliability and Misclassification in the Human Coding of Party Manifestos](/pdfs/MLB_PA_2012.pdf)." **_Political Analysis_** 20(1): 78–91**. Replication materials including original data available [**here**](/files/CMP_reliability_replication.zip).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
+2012\. Mikhaylov, Slava, Michael Laver, and Kenneth Benoit. "[Coder Reliability and Misclassification in the Human Coding of Party Manifestos](/pdfs/MLB_PA_2012.pdf)." **_Political Analysis_** 20(1): 78–91. Replication materials including original data available [**here**](/files/CMP_reliability_replication.zip).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
-2011\. William Lowe, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Scaling Policy Preferences From Coded Political Texts](/pdfs/Loweetal_2010_LSQ.pdf)." _**Legislative Studies Quarterly** 26(1, Feb): 123-155\._ The **replication** **dataset** also containing more than 20 new scales (and confidence intervals) is available **[here](https://hdl.handle.net/1902.1/17073)**.
+2011\. William Lowe, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Scaling Policy Preferences From Coded Political Texts](/pdfs/Loweetal_2010_LSQ.pdf)." _**Legislative Studies Quarterly** 26(1, Feb): 123-155\._ The replication **dataset** also containing more than 20 new scales (and confidence intervals) is available **[here](https://hdl.handle.net/1902.1/17073)**.
 
 2010\. Gail McElroy and Kenneth Benoit. ["](/pdfs/partygroups_BJPS2.pdf "Download paper file in pdf here")[Party Policy and Group Affiliation in the European Parliament](https://journals.cambridge.org/repo_A74mUSDf)." _**British Journal of Political Science**_ 40(2, April): 377-398.
 
-2010\. Kenneth Benoit and Michael Marsh. "[Incumbent and Challenger Campaign Spending Effects in Proportional Electoral Systems: The Irish Elections of 2002](/pdfs/Benoit_Marsh_PRQ_2010.pdf)." _**Political Research Quarterly**_ 63(1, March): 159-173\. **Replication materials** [**here**](/files/Benoit_Marsh_PRQ2010_replication.zip).
+2010\. Kenneth Benoit and Michael Marsh. "[Incumbent and Challenger Campaign Spending Effects in Proportional Electoral Systems: The Irish Elections of 2002](/pdfs/Benoit_Marsh_PRQ_2010.pdf)." _**Political Research Quarterly**_ 63(1, March): 159-173\. Replication materials [**here**](/files/Benoit_Marsh_PRQ2010_replication.zip).
 
 2009\.  Kenneth Benoit. "[Irish Political Parties and Policy Stances on European Integration](/pdfs/Benoit_IPS_2009.pdf)." _**Irish Political Studies**_ 24(4, December): 447-466.
 

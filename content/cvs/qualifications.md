@@ -16,13 +16,13 @@ header:
 
 ### Academic Positions
 
-London School of Economics and Political Science, Department of Methodology. Professor of Quantitative Social Research Methods, Head of Department of Methodology, 2011--present.  Director, Social and Economic Data Science Unit, 2016--present.
+London School of Economics and Political Science, Department of Methodology.  Department of Methodology. Pro- fessor of Computational Social Science. 2020–present: Director, Data Science Institute.
+
+Australian National Unversity, School of Politics and International Relations. 2018– present: Professor, part-time.
 
 Trinity College, University of Dublin, Department of Political Science. Professor of Quantitative Social Sciences, 2007-2010; Associate Professor, 2005-2007; Fellow, 2003-2010; Lecturer, 1998-2005.
 
-Central European University, Budapest, Department of Political Science. Visiting Lecturer, 1997-1998; Permanent Visiting Lecturer, 2000-present.
-
-Századvég Policy Research Center, Budapest, Hungary. Senior Research Fellow, 1997-present.
+Central European University, Budapest, Department of Political Science. Visiting Lecturer, 1997-1998.
 
 ### Education
 

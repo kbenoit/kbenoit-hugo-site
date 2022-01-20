@@ -184,6 +184,8 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 ### Other
 
+2021\. Benoit, Kenneth. "[Textual Data Science with R.](https://doi.org/10.1080/00031305.2021.1985864)" _The American Statistician_ 75(4): 453-454. doi: 10.1080/00031305.2021.1985864.
+
 2006\. Benoit, Kenneth and Michael Laver. "Automated Content Analysis of Political Texts using Wordscores." _APSA-CP Newsletter_ 17(1, Winter):6-9.
 
 2005\. "[How Qualitative Research Really Counts](/pdfs/QualReallyCounts2005.pdf)." _Qualitative Methods Newsletter_ (Spring).

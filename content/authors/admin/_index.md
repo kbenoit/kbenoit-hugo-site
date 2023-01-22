@@ -79,7 +79,7 @@ user_groups:
 - Visitors
 ---
 
-Kenneth Benoit is Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) at  at the [London School of Economics and Political Science](http://www.lse.ac.uk/), and Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx).  He is also Professor (Part-time) in the School of Politics and International Relations, Australian National University.  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
+Kenneth Benoit is Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) at the [London School of Economics and Political Science](http://www.lse.ac.uk/), and Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx).  He is also Professor (Part-time) in the School of Politics and International Relations, Australian National University.  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
 
 He received his Ph.D. (1998) from Harvard University, Department of Government with a specialization in applied statistical methods.
 

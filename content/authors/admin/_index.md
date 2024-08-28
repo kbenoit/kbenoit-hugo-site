@@ -14,8 +14,8 @@ role: Professor of Computational Social Science
 
 # Organizations/Affiliations
 organizations:
-- name: London School of Economics
-  url: "https://www.lse.ac.uk/"
+- name: Singapore Management University
+  url: "https://www.smu.edu.sg/"
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -44,13 +44,16 @@ organizations:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:K.R.benoit@lse.ac.uk'
+  link: 'mailto:kbenoit@smu.edu.sg'
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/krbenoit/
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/kenbenoit
+  link: https://x.com/kenbenoit
 - icon: instagram
   icon_pack: fab
-  link: https://instagram.com/kenbenoitphotos
+  link: https://instagram.com/proflegit
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ&hl=en
@@ -79,19 +82,18 @@ user_groups:
 - Visitors
 ---
 
-Kenneth Benoit is Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) at the [London School of Economics and Political Science](http://www.lse.ac.uk/), and Professor of Computational Social Science in the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx).  He is also Professor (Part-time) in the School of Politics and International Relations, Australian National University.  He has previously held positions in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD") and at the [Central European University](http://www.ceu.hu) (Budapest).
+Kenneth Benoit is Dean of the [School of Social Sciences](https://socsc.smu.edu.sg) and Professor of Computational Social Science, Singapore Management University.  He has previously held positions at the [London School of Economics and Political Science](http://www.lse.ac.uk/), where he was Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) and before that, Head of the the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx); Professor (Part-time) in the School of Politics and International Relations, Australian National University; Professor of Quantitative Social Sciences in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at  [Trinity College Dublin](http://www.tcd.ie "TCD"); and at the [Central European University](http://www.ceu.hu) (Budapest).
 
 He received his Ph.D. (1998) from Harvard University, Department of Government with a specialization in applied statistical methods.
 
-His current research focuses on computational, quantitative methods for processing large amounts of textual data, mainly political texts and social media. Current interest span from the analysis of big data, including social media, and methods of text mining. His substantive research in political science focuses on comparative party competition, the European Parliament, electoral systems, and the effects of campaign spending. His other methodological interests include general statistical methods for the social sciences, especially those relating to measurement. Recent data large-scale measurement projects in which he has been involved include estimating policy positions of political parties through crowd-sourced data, expert surveys, manifesto coding, and text analysis.
+His current research used large language models and advanced machine learning methods for analyzing large amounts of textual data, mainly political texts and social media. Current interest span the analysis of big data, including social media, and methods of text mining. His substantive research in political science focuses on comparative party competition, the European Parliament, electoral systems, and the effects of campaign spending. His other methodological interests include general statistical methods for the social sciences, especially those relating to measurement. Recent data large-scale measurement projects in which he has been involved include estimating policy positions of political parties through crowd-sourced data, expert surveys, manifesto coding, and text analysis.
 
 Google Scholar Page [here](https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ).
 
 Contact details:  
-Data Science Institute  
-London School of Economics  
-London WC2A 2AE  
-United Kingdom  
-[K.R.Benoit@lse.ac.uk](mailto:K.R.Benoit@lse.ac.uk "Send me an e-mail")
+School of Social Sciences
+Singapore Management University  
+Singapore 179873  
+[kbenoit@smu.edu.sg](mailto:kbenoit@smu.edu.sg "Send me an e-mail")
 
 [Download Kenneth Benoit’s **C.V.** in .pdf format.](/pdfs/KenBenoitCV.pdf "CV in pdf format")

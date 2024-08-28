@@ -11,11 +11,8 @@ author = "admin"
 
 ### Current Ph.D. students
 
-*   Elisa Cencig (LSE)
 *   Yuanmo He (LSE)
 *   Sarah Jewett (LSE)
-*   Julia Leschke (LSE)
-*   Christian Mueller (LSE)
 
 ### Current Post-Docs
 

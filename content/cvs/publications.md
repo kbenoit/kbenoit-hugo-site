@@ -1,16 +1,13 @@
 ---
-title: Publications
+title: "Publications"
 summary: Publications
-
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
-
-# Optional header image (relative to `static/img/` folder).
+reading_time: false
+share: false
+profile: false
+comments: false
 header:
-  caption: ""
-  image: ""
+  caption: ''
+  image: ''
 ---
 
 ### [Google Scholar Page](https://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ)

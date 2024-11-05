@@ -17,7 +17,7 @@ header:
 
 ### Articles
 
-2024\.  Benoit, Kenneth.  "[AI and Data Science for Public Policy](https://ppr.lse.ac.uk/articles/10.31389/lseppr.115)". _LSE Public Policy Review_. 3(3): 1–6. [10.31389/lseppr.115](https://doi.org/10.31389/lseppr.115)
+2024\.  Benoit, Kenneth.  "[AI and Data Science for Public Policy](https://ppr.lse.ac.uk/articles/10.31389/lseppr.115)". _**LSE Public Policy Review**_. 3(3): 1–6. [10.31389/lseppr.115](https://doi.org/10.31389/lseppr.115)
 
 2022\.  Däubler, Thomas and Kenneth Benoit.  "[Scaling hand-coded political texts to learn more about left-right policy content](/pdfs/daubler-benoit-2021-scaling-hand-coded-political-texts-to-learn-more-about-left-right-policy-content.pdf)."  _**Party Politics**_. 28(5, September): 834–844. [10.1177/13540688211026076](https://doi.org/10.1177/13540688211026076)
 

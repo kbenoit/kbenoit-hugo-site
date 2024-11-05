@@ -63,8 +63,9 @@ See "Co-authors" from https://scholar.google.com.au/citations?user=hp1p9TEAAAAJ&
 
 ### Institutional affiliations
 
-*   [Department of Methodology, London School of Economics and Political Science](http://www.lse.ac.uk/methodology/), Professor of Computational Social Science, 2011-present
-*   [School of Politics and International Relations](http://politicsir.cass.anu.edu.au/), Australian National University, Professor (Part-Time) 2019-2021
+*   [School of Social Sciences, Singapore Management University](https://socsc.smu.edu.sg), Dean and Professor of Computational Social Science, 2024-present
+*   [Department of Methodology, London School of Economics and Political Science](http://www.lse.ac.uk/methodology/), Professor of Computational Social Science, 2011-present; on unpaid leave 2024-2025
+*   [School of Politics and International Relations](http://politicsir.cass.anu.edu.au/), Australian National University, Professor (Part-Time) 2019-2024
 *   [Social and Economic Data Sciences Unit](http://lse.ac.uk/seds/), London School of Economics and Political Science, Director, 2016 - 2018
 *   [Department of Political Science, Trinity College Dublin](http://www.politics.tcd.ie/ "Trinity College Dublin Political Science"), 1998-2010; 2012-2018 (Part-time)
 *   [Department of Politics, New York University](http://politics.as.nyu.edu/page/home), Visiting Professor 2014

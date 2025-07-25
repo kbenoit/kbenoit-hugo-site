@@ -14,12 +14,11 @@ header:
 
 ### Articles
 
-In press. Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma.
-``[Using Large Language Models to Analyze Political Texts Through Natural Language Understanding](/pdfs/Benoit_etal_2025_AJPS.pdf).'' 
-_American Journal of Political Science_.
+In press\. Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma.
+"[Using Large Language Models to Analyze Political Texts Through Natural Language Understanding](/pdfs/Benoit_etal_2025_AJPS.pdf)."
+_**American Journal of Political Science**_.
 
-2025. Benoit, Kenneth. ``[Forging The Future: How AI is rewriting the rules of knowledge](https://cmp.smu.edu.sg/ami/issues/volume-12-issue-2/vantage-point/forging-future?new=1),
-expertise, and practice'' _Asian Management Insights_ 12(2, July 2025): 12–19.
+2025\. Benoit, Kenneth. "[Forging The Future: How AI is rewriting the rules of knowledge, expertise, and practice](https://cmp.smu.edu.sg/ami/issues/volume-12-issue-2/vantage-point/forging-future?new=1)." _**Asian Management Insights**_ 12(2, July 2025): 12–19.
 
 2024\.  Benoit, Kenneth.  "[AI and Data Science for Public Policy](https://ppr.lse.ac.uk/articles/10.31389/lseppr.115)". _**LSE Public Policy Review**_. 3(3): 1–6. [10.31389/lseppr.115](https://doi.org/10.31389/lseppr.115)
 

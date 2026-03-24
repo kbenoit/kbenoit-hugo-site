@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ken">
+<meta name="dcterms.date" content="2014-01-08">
+
+<title>Quantitative Text Analysis (TCD) – Ken Benoit</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f5e4cd7c8d415b10ad12337d0aa1e5f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/images/icon.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ken Benoit</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../bio.html"> 
+<span class="menu-text">Bio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../current.html"> 
+<span class="menu-text">Current</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../associates.html"> 
+<span class="menu-text">Associates</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#short-outline" id="toc-short-outline" class="nav-link active" data-scroll-target="#short-outline">Short Outline</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#detailed-outline" id="toc-detailed-outline" class="nav-link" data-scroll-target="#detailed-outline">Detailed Outline</a>
+  <ul class="collapse">
+  <li><a href="#meetings" id="toc-meetings" class="nav-link" data-scroll-target="#meetings">Meetings</a></li>
+  <li><a href="#computer-software" id="toc-computer-software" class="nav-link" data-scroll-target="#computer-software">Computer Software</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#recommended-texts" id="toc-recommended-texts" class="nav-link" data-scroll-target="#recommended-texts">Recommended Texts</a></li>
+  </ul></li>
+  <li><a href="#detailed-course-schedule" id="toc-detailed-course-schedule" class="nav-link" data-scroll-target="#detailed-course-schedule">Detailed &nbsp;Course Schedule</a>
+  <ul class="collapse">
+  <li><a href="#session-1-introduction-and-issues-in-quantitative-text-analysis" id="toc-session-1-introduction-and-issues-in-quantitative-text-analysis" class="nav-link" data-scroll-target="#session-1-introduction-and-issues-in-quantitative-text-analysis">Session 1: Introduction and Issues in quantitative text analysis</a></li>
+  <li><a href="#session-2-selecting-texts-and-features" id="toc-session-2-selecting-texts-and-features" class="nav-link" data-scroll-target="#session-2-selecting-texts-and-features">Session 2: Selecting Texts and Features</a></li>
+  <li><a href="#session-3-quantitative-methods-for-comparing-texts" id="toc-session-3-quantitative-methods-for-comparing-texts" class="nav-link" data-scroll-target="#session-3-quantitative-methods-for-comparing-texts">Session 3: Quantitative methods for comparing texts</a></li>
+  <li><a href="#session-4-automated-dictionary-based-approaches" id="toc-session-4-automated-dictionary-based-approaches" class="nav-link" data-scroll-target="#session-4-automated-dictionary-based-approaches">Session 4: Automated dictionary-based approaches</a></li>
+  <li><a href="#session-5-document-classification-machine-learning-and-non-parametric-scaling" id="toc-session-5-document-classification-machine-learning-and-non-parametric-scaling" class="nav-link" data-scroll-target="#session-5-document-classification-machine-learning-and-non-parametric-scaling"></a><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session5.pdf" class="nav-link" data-scroll-target="../../assets/courses/tcd2014qta/QTA_TCD_Session5.pdf">Session 5: Document classification, machine learning, and non-parametric scaling</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Quantitative Text Analysis (TCD)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Course-related</div>
+    <div class="quarto-category">Quantitative Methods</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ken </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 8, 2014</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="short-outline" class="level2">
+<h2 class="anchored" data-anchor-id="short-outline">Short Outline</h2>
+<p>The course surveys methods for systematically extracting quantitative information from text for social scientific purposes, starting with classical content analysis and dictionary-based methods, to classification methods, and state-of-the-art scaling methods and topic models for estimating&nbsp;quantities from text using statistical techniques. The course lays a theoretical foundation for text analysis but mainly takes a very practical and applied approach, so that students learn how to apply these methods in actual research. The common focus across all methods is that they can be reduced to a three-step process: first, identifying texts and units of texts for analysis; second, extracting from the texts quantitatively measured features—such as coded content categories, word counts, word types, dictionary counts, or parts of speech—and converting these into a quantitative matrix; and third, using quantitative or statistical methods to analyse this matrix in order to generate inferences about the texts or their authors. The course systematically surveys these methods in a logical progression, with a very practical hands-on approach where each technique will be applied in lab sessions using appropriate software, on real texts.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<p>This course is aimed to provide a practical foundation to and a working knowledge of the main applied techniques of quantitative text analysis for social science research. The course covers many fundamental issues in quantitative text analysis such as inter-coder agreement, reliability, validation, accuracy, and precision. It also surveys the main techniques such as human coding (classical content analysis), dictionary approaches, classification methods, and scaling models. It also includes systematic consideration of published applications and examples of these methods, from a variety of disciplinary and applied fields, including political science, economics, sociology, media and communications, marketing, finance, social policy, and health policy. Lessons will consist of a mixture of theoretical grounding in content analysis approaches and techniques, with hands on analysis of real texts using content analytic and statistical software.</p>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Ideally, students in this course will have prior knowledge in the following areas:</p>
+<ul>
+<li>An understanding of probability and statistics at the level of Advanced Quantitive Methods. This course is not heavily mathematical or statistical but students without the prerequisite level of quantitative experience will find the material difficult to follow. However, it will be possible to apply all of the methods covered using the WordStat software in all but the the last two sessions of the course, even if the students fail to grasp the full statistical workings of each method.</li>
+<li>Willingness and ability to use the <a href="http://provalisresearch.com/products/content-analysis-software/">WordStat/QDAMiner</a> software, a commercial package de- veloped by Provalis Research. This software will be used for all but the last two lessons, although the R library (see next item) may also be used for this purpose.</li>
+<li>Familiarity with the R statistical package. Stata may also be used but the lab sessions will be designed to use R coupled with a customized R library designed by the instructor. This is in development and available from <a href="http://github.com/kbenoit/quanteda" class="uri">http://github.com/kbenoit/quanteda</a></li>
+</ul>
+</section>
+<section id="detailed-outline" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-outline">Detailed Outline</h2>
+<section id="meetings" class="level3">
+<h3 class="anchored" data-anchor-id="meetings">Meetings</h3>
+<p>Classes will meet for five sessions, on Mondays. These are:</p>
+<ul>
+<li>13 January: Phoenix House, PX, Rm. 201 – 12-4pm</li>
+<li>27 January: College Green, Seminar Rm.3, from 11am-1pm and 2pm-3pm</li>
+<li>10 February: Phoenix House, PX Rm 201 – 12-4pm</li>
+<li><span style="color: #ff0000;">3 March: College Green, Rm.2 – 12-2pm and 3-4pm (NOTE CHANGE FROM 17 FEB)</span></li>
+<li><span style="line-height: 1.5em; color: #ff0000;">10 March: 1.16 Foster Place, 12am-4pm</span></li>
+</ul>
+<p>Approximately 2/3 of the time will be devoted to lectures, and the other half will consist of “lab” sessions where we will work through exercises in class. Typically we will have a two hour lecture, followed by a break, followed by lab sessions.</p>
+</section>
+<section id="computer-software" class="level3">
+<h3 class="anchored" data-anchor-id="computer-software">Computer Software</h3>
+<p>Computer-based exercises will feature prominently in the course, especially in the lab sessions. The use of all software tools will be explained in the sessions, including how to download and install them.</p>
+</section>
+<section id="grading" class="level3">
+<h3 class="anchored" data-anchor-id="grading">Grading</h3>
+<p>Grading will be based on a combination of four take-home exercises.</p>
+</section>
+<section id="recommended-texts" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-texts">Recommended Texts</h3>
+<p>There is no really good single textbook that exists to cover computerized or quantitative text analy- sis. While not ideally fitting our core purpose, Krippendorf’s classic Content Analysis — just updated — is the next best thing. The staple book-length reading is therefore:</p>
+<ul>
+<li>Krippendorff, K. (2013). Content Analysis: An Introduction to Its Methodology. Sage, Thousand Oaks, CA, 3rd edition.</li>
+</ul>
+<p>Another good general reference to content analysis that you might find useful as a supplement is:</p>
+<ul>
+<li>Neuendorf, K. A. (2002). The Content Analysis Guidebook. Sage, Thousand Oaks, CA.</li>
+</ul>
+<p>Other readings will consist of articles, reproduced in the coursepack (and if possible, available as&nbsp;downloadable pdf files from the links below.</p>
+</section>
+</section>
+<section id="detailed-course-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-course-schedule">Detailed &nbsp;Course Schedule</h2>
+<section id="session-1-introduction-and-issues-in-quantitative-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="session-1-introduction-and-issues-in-quantitative-text-analysis"><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session1.pdf">Session 1: Introduction and Issues in quantitative text analysis</a></h3>
+<p>This topic will introduce the goals and logistics of the course, provide an overview of the topics to be covered, and preview the software to be used. It will also introduce traditional (non-computer assisted) content analysis and distinguish this from computer-assisted methods and quantitative text analysis. We will cover the conceptual foundations of content analysis and quantitative content analysis, discuss the objectives, the approach to knowledge, and the particular view of texts when performing quantitative analysis. Two examples will be discussed (based on the Gebauer et. al.&nbsp;and Schonhardt-Bailey readings). <strong>Required Reading:</strong></p>
+<ul>
+<li><p>Krippendorff (2013, Chs. <a href="../../assets/courses/tcd2014qta/readings/Krippendorf_2013_Ch1.pdf">1</a>, <a href="Krippendorf_2013_Ch2.pdf">2</a>)</p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/Political Analysis 2013 Grimmer.pdf">Grimmer and Stewart (2013)</a> <strong>Recommended Reading:</strong></p></li>
+<li><p>(example) <a href="../../assets/courses/tcd2014qta/readings/Gebauer et al 2008.pdf">Gebauer, Tang and Baimai (2008)</a></p></li>
+<li><p>(example) <a href="../../assets/courses/tcd2014qta/readings/Schonhardt-Bailey 2008_The Congressional Debate on Partial-Birth Abortion.pdf">Schonhardt-Bailey (2008)</a></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/Roberts 2000_A Conceptual Framework for Quantitative Content Analysis.pdf">Roberts (2000)</a></p></li>
+<li><p>Neuendorf (2002, Chs. <a href="../../assets/courses/tcd2014qta/readings/Neuendorf_Chapter 1 Defining Content Analysis.pdf">1</a>, <a href="../../assets/courses/tcd2014qta/readings/Neuendorf_Chapter 2 Milestones.pdf">2</a>, <a href="../../assets/courses/tcd2014qta/readings/Neuendorf_Chapter 3 Beyond Description.pdf">3</a>) <strong>Lab session:</strong></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/exercises/Assignment_1.pdf">Exercise 1: Working with Texts in QDAMiner</a></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/exercises/Assignment1.R">R code to implement Exercise 1</a> (using <a href="http://github.com/kbenoit/quanteda">quanteda</a>).</p></li>
+</ul>
+</section>
+<section id="session-2-selecting-texts-and-features" class="level3">
+<h3 class="anchored" data-anchor-id="session-2-selecting-texts-and-features"><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session2.pdf">Session 2: Selecting Texts and Features</a></h3>
+<p>Textual data comes in many forms. Here we discuss those formats, and talk about text processing preparation of texts. These issues include where to obtain textual data; formatting and working with text files; indexing and meta-data; units of analysis; and definitions of features and measures commonly extracted from texts, including stemming, stop-words, and feature weighting. We also cover research design issues designed to ensure reliability and validity, including how to measure agreement. <strong>Required Reading:</strong></p>
+<ul>
+<li><p>Krippendorff (2013, Ch. <a href="Krippendorf_2013_Chs3-4.pdf">3–4</a>, <a href="Krippendorf_2013_Ch6.pdf">6</a>, <a href="Krippendorf_2013_Ch10.pdf">10</a>)</p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/Jivani_ijcta2011020632.pdf">Jivani (2011)</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Stop_words" class="uri">http://en.wikipedia.org/wiki/Stop_words</a> (and browse lists of stop words)</p></li>
+<li><p><a href="http://nlp.stanford.edu/IR-book/">Manning, Raghavan and Schütze</a> (2008, 117–120) <strong>Recommended Reading:</strong></p></li>
+<li><p>Wikipedia entry on Character encoding, <a href="http://en.wikipedia.org/wiki/Text_encoding" class="uri">http://en.wikipedia.org/wiki/Text_encoding</a>.</p></li>
+<li><p>Browse the different text file formats at <a href="http://www.fileinfo.com/filetypes/text" class="uri">http://www.fileinfo.com/filetypes/text</a>.</p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/Neuendorf_Chs4-7.zip">Neuendorf (2002, Chs. 4–7)</a></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/MPP2_Appendixes.zip">Klingemann et al.&nbsp;(2006, Appendixes I–II)</a></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/readings/Banerjee et al 1999_Beyond kappa.pdf">Banerjee et al.&nbsp;(1999)</a> <strong>Lab session:</strong></p></li>
+<li><p><a href="../../assets/courses/tcd2014qta/exercises/Assignment_2.pdf">Exercise 2: Extracting features from texts and summarizing them descriptively</a></p></li>
+</ul>
+</section>
+<section id="session-3-quantitative-methods-for-comparing-texts" class="level3">
+<h3 class="anchored" data-anchor-id="session-3-quantitative-methods-for-comparing-texts"><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session3.pdf">Session 3: Quantitative methods for comparing texts</a></h3>
+<p>Quantitative methods for comparing texts, such as char- acterizing texts through concordances, co- occurrences, and keywords in context; complexity and readability measures; dissimilarity measures; and an in-depth discussion of text types, tokens, and equivalencies. <strong>Required Reading:</strong> - Krippendorff (2013, Chs. 4–5, 12, 13) - <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3&amp;cad=rja&amp;ved=0CD4QFjAC&amp;url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.352.6123%26rep%3Drep1%26type%3Dpdf&amp;ei=sVgTU4zHPMaK7Abwu4HYBw&amp;usg=AFQjCNGVeaVbwDG622SxpDYn3zg_3Q7uwA&amp;sig2=vs5BG7CSAyilYtf66hPi6Q&amp;bvm=bv.62286460,d.ZGU">Choi, Cha and Tappert (2010)</a> - <a href="../../pdfs/Loweetal_2010_LSQ.pdf">Lowe et al.&nbsp;(2011)</a></p>
+<p><strong>Recommended Reading:</strong> - DuBay (2004)</p>
+<p><strong>Lab session:</strong> - <a href="../../assets/courses/tcd2014qta/exercises/Assignment_3.pdf">Exercise 3: Exploring and comparing texts</a>.</p>
+</section>
+<section id="session-4-automated-dictionary-based-approaches" class="level3">
+<h3 class="anchored" data-anchor-id="session-4-automated-dictionary-based-approaches"><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session4.pdf">Session 4: Automated dictionary-based approaches</a></h3>
+<p>Automatic dictionary-based methods involve association of pre-defined word lists with particular quantitative values assigned by the researcher for some characteristic of interest. This topic covers the design model behind dictionary construction, including guidelines for testing and refining dic- tionaries. Hand-on work will cover commonly used dictionaries such as LIWC, RID, and the Harvard IV-4, with applications. We will also review a variety of text pre-processing issues and textual data concepts such as word types, tokens, and equivalencies, including word stemming and trimming of words based on term and/or document frequency.</p>
+<p><strong>Required Reading:</strong> - <a href="../../assets/courses/tcd2014qta/readings/Neuendorf_Chs4-7.zip">Neuendorf (2002, Ch. 6)</a> - <a href="../../assets/courses/tcd2014qta/readings/Laver Garry 2000_Estimating Policy Positions from Political Texts.pdf">Laver and Garry (2000)</a></p>
+<p><strong>Recommended Reading:</strong> - <a href="http://homepage.psy.utexas.edu/HomePage/Faculty/Pennebaker/Reprints/Pennebaker&amp;Chung_Al-Qaeda.pdf">Pennebaker and Chung (2008)</a></p>
+<p><strong>Assignment:</strong> - <a href="../../assets/courses/tcd2014qta/exercises/Assignment_4.pdf">Exercise 4: Applying dictionary coding using QDAMiner</a>.</p>
+</section>
+<section id="session-5-document-classification-machine-learning-and-non-parametric-scaling" class="level3">
+<h3 class="anchored" data-anchor-id="session-5-document-classification-machine-learning-and-non-parametric-scaling"><a href="../../assets/courses/tcd2014qta/QTA_TCD_Session5.pdf">Session 5: Document classification, machine learning, and non-parametric scaling</a></h3>
+<p>Classification methods permit the automatic classification of texts in a test set following machine learning from a training set. This topic introduces classifiers and explains one of the most popular classifiers, the Naive Bayes model. It covers in depth the nature of category systems, methods for assessing classifer performance, the effects of feature weighting on classification accuracy. The topic also covers validation and reporting methods for classifiers and discusses where these methods are applicable.</p>
+<p><strong>Required Reading:</strong> - <a href="http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html">Manning, Raghavan and Schütze (2008, Ch. 13)</a> - <a href="http://www.gvpt.umd.edu/mcintosh/2007%20recountingcourts_JELS.pdf">Evans et al.&nbsp;(2007)</a> - <a href="../../pdfs/WORDSCORESAPSR.pdf">Laver, Benoit and Garry (2003)</a> - <a href="http://conference.mpsanet.org/papers/archive.aspx/2011/122630">Benoit and Nulty (2013)</a></p>
+<p><strong>Recommended Reading:</strong> - An online article by Paul Graham on classifying spam e-mail. <a href="http://www.paulgraham.com/spam.html.">http://www.paulgraham.com/spam.html.</a> - Bionicspirit.com, 9 Feb 2012, “How to Build a Naive Bayes Classifier,” <a href="http://bionicspirit.%20com/blog/2012/02/09/howto-build-naive-bayes-classifier.html">http://bionicspirit. com/blog/2012/02/09/howto-build-naive-bayes-classifier.html.</a> - Yu, Kaufmann and Diermeier (2008) - Statsoft, “Naive Bayes Classifier Introductory Overview,” <a href="http://www.statsoft.com/textbook/naive-bayes-classifier/">http://www.statsoft.com/textbook/naive-bayes-classifier/</a>.</p>
+<p><strong>Assignment:</strong> - <a href="../../assets/courses/tcd2014qta/exercises/Assignment_5.pdf">Exercise 5: Classifying and scaling movie reviews and court briefs</a>. Uses QDAMiner/Wordstat to classify textual data from <a href="http://www.cs.cornell.edu/People/pabo/movie-review-data/">http://www.cs.cornell.edu/People/pabo/movie-review-data/</a> and from Evans et al.&nbsp;(2007), and Quanteda to scale them.</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ul>
+<li>Banerjee, M., M. Capozzoli, L. McSweeney and D. Sinha. 1999. “Beyond Kappa: A Review of Interrater Agreement Measures.” The Canadian Journal of Statistics/La Revue Canadienne de Statistique 27(1):3–23.</li>
+<li>Barberá, Pablo. 2013. “Birds of the Same Feather Tweet Together: Bayesian Ideal Point Estimation Using Twitter Data.” http://files.nyu.edu/pba220/public/birds_jan2013.pdf.</li>
+<li>Benoit, K. and M. Laver. 2007. “Compared to What? A Comment on ‘A Robust Transformation Procedure for Interpreting Political Text’ by Martin and Vanberg.” Political Analysis 16(1):101– 111.</li>
+<li>Benoit, Kenneth, Michael Laver and Slava Mikhaylov. 2009. “Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions.” American Journal of Political Science 53(2, April):495–513.</li>
+<li>Benoit, Kenneth and Paul Nulty. 2013. “Classification Methods for Scaling Latent Political Traits.” Presented at the Annual Meeting of the Midwest Political Science Association, April 11–14, Chicago.</li>
+<li>Choi, Seung-Seok, Sung-Hyuk Cha and Charles C. Tappert. 2010. “A Survey of Binary Similarity and Distance Measures.” Journal of Systemics, Cybernetics and Informatics 8(1):43–48.</li>
+<li>Clinton, J., S. Jackman and D. Rivers. 2004. “The statistical analysis of roll call voting: A unified approach.” American Journal of Political Science 98(2):355–370.</li>
+<li>Däubler, Thomas, Kenneth Benoit, Slava Mikhaylov and Michael Laver. 2012. “Natural Sentences as Valid Units for Coded Political Texts.” British Journal of Political Science 42(4):937–951.</li>
+<li>DuBay, William. 2004. The Principles of Readability. Costa Mesa, California. http://www. impact-information.com/impactinfo/readability02.pdf: Impact Information.</li>
+<li>Evans, Michael, Wayne McIntosh, Jimmy Lin and Cynthia Cates. 2007. “Recounting the Courts? Applying Automated Content Analysis to Enhance Empirical Legal Research.” Journal of Empirical Legal Studies 4(4, December):1007–1039.</li>
+<li>Gebauer, Judith, Ya Tang and Chaiwat Baimai. 2008. “User requirements of mobile technology: results from a content analysis of user reviews.” Information Systems and e-Business Management 6(4):361–384.</li>
+<li>Ginsberg, Jeremy, Matthew H Mohebbi, Rajan S Patel, Lynnette Brammer, Mark S Smolinski and Larry Brilliant. 2008. “Detecting influenza epidemics using search engine query data.” Nature 457(7232):1012–1014.</li>
+<li>Grimmer, Justin and Brandon M. Stewart. 2013. “Text as Data: The Promise and Pitfalls of Auto- matic Content Analysis Methods for Political Texts.” Political Analysis (In Press).</li>
+<li>Jivani, Anjali Ganesh. 2011. “A Comparative Study of Stemming Algorithms.” Int. J. Comp. Tech. Appl. 2(6, Nov-Dec):1930–1938.</li>
+<li>Klingemann, Hans-Dieter, Andrea Volkens, Judith Bara, Ian Budge and Michael McDonald. 2006.</li>
+<li>Mapping Policy Preferences II: Estimates for Parties, Electors, and Governments in Eastern Europe, European Union and OECD 1990-2003. Oxford: Oxford University Press.</li>
+<li>Krippendorff, Klaus. 2013. Content Analysis: An Introduction to Its Methodology. 3rd ed.&nbsp;Thousand Oaks, CA: Sage.</li>
+<li>Lampos, Vasileios, Daniel Preotiuc-Pietro and Trevor Cohn. 2013. A user-centric model of voting intention from Social Media. In Proceedings of the 51st Annual Meeting of the Association for Com- putational Linguistics (ACL).</li>
+<li>Laver, M. and J. Garry. 2000. “Estimating policy positions from political texts.” American Journal of Political Science 44(3):619–634.</li>
+<li>Laver, Michael, Kenneth Benoit and John Garry. 2003. “Estimating the policy positions of political actors using words as data.” American Political Science Review 97(2):311–331.</li>
+<li>Lowe, W. 2008. “Understanding Wordscores.” Political Analysis 16(4):356–371.</li>
+<li>Lowe, William and Kenneth Benoit. 2013. “Validating Estimates of Latent Traits From Textual Data&nbsp;Using Human Judgment as a Benchmark.” Political Analysis 21(3):298–313.</li>
+<li>Lowe, William, Kenneth Benoit, Slava Mikhaylov and Michael Laver. 2011. “Scaling Policy Preferences From Coded Political Texts.” Legislative Studies Quarterly .</li>
+<li>Manning, C. D., P. Raghavan and H. Schütze. 2008. Introduction to Information Retrieval. Cambridge&nbsp;University Press.</li>
+<li>Martin, L. W. and G. Vanberg. 2007. “A robust transformation procedure for interpreting political&nbsp;text.” Political Analysis 16(1):93–100.</li>
+<li>Metaxas, Panagiotis T., Eni Mustafaraj and Daniel Gayo-Avello. 2011. How (not) to predict elections. In Privacy, security, risk and trust (PASSAT), 2011 IEEE third international conference on and 2011 IEEE third international conference on social computing (SocialCom).</li>
+<li>Mikhaylov, Slava, Michael Laver and Kenneth Benoit. 2012. “Coder Reliability and Misclassification in the Human Coding of Party Manifestos.” Political Analysis 20(1):78–91.</li>
+<li>Neuendorf, K. A. 2002. The Content Analysis Guidebook. Thousand Oaks CA: Sage.</li>
+<li>Pennebaker, J. W. and C. K. Chung. 2008. Computerized text analysis of al-Qaeda transcripts. In&nbsp;<em>The Content Analysis Reader</em>, ed.&nbsp;K. Krippendorf and M. A. Bock. Thousand Oaks, CA: Sage.</li>
+<li>Roberts, C. W. 2000. “A conceptual framework for quantitative text analysis.” Quality and Quantity&nbsp;34(3):259–274.</li>
+<li>Schonhardt-Bailey, Cheryl. 2008. “The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion.” British Journal of Political Science 38:383–410.</li>
+<li>Slapin, J. B. and S.-O. Proksch. 2008. “A scaling model for estimating time-series party positions&nbsp;from texts.” American Journal of Political Science 52(3):705–722.</li>
+<li>Yu, B., S. Kaufmann and D. Diermeier. 2008. “Classifying Party Affiliation from Political Speech.”&nbsp;Journal of Information Technology and Politics 5(1):33–48.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kenbenoit\.net\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Ken Benoit {year}</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -10,3 +10,5 @@ public/
 *.zip
 *_cache*
 .DS_Store
+
+/.quarto/

@@ -14,9 +14,9 @@ header:
 
 ### Articles
 
-In press\. Benoit, Kenneth and Michael Laver. "[Measuring issue salience for political parties using LLMs.](/pdfs/Measuring-issue-salience-for-political-parties-using-LLMs-WEP.pdf)" _**West European Politics**_.
+2026\. Benoit, Kenneth and Michael Laver. "[Measuring issue salience for political parties using LLMs.](https://www.tandfonline.com/doi/full/10.1080/01402382.2026.2637134)" _**West European Politics**_. [10.1080/01402382.2026.2637134](https://doi.org/10.1080/01402382.2026.2637134)
 
-2026. Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma.
+2026\. Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma.
 "[Using Large Language Models to Analyze Political Texts Through Natural Language Understanding](https://onlinelibrary.wiley.com/doi/10.1111/ajps.70050)."
 _**American Journal of Political Science**_. [10.1111/ajps.70050](https://doi.org/10.1111/ajps.70050)
 

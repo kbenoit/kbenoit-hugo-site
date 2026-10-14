@@ -9,7 +9,7 @@ title = ""
 author = "admin"
 +++
 
-To download my C.V. in .pdf format, click [here.](/pdfs/KenBenoitCV.pdf)
+[Download my C.V. in .pdf format.](/pdfs/KenBenoitCV.pdf)
 
 ### Menu
 
@@ -18,4 +18,4 @@ To download my C.V. in .pdf format, click [here.](/pdfs/KenBenoitCV.pdf)
 - [Grants and Awards]({{< ref "cvs/grants-and-awards.md" >}})
 - [Service]({{< ref "cvs/service.md" >}})
 - [Teaching]({{< ref "cvs/teaching.md" >}})
-- [Conference and Presentations]({{< ref "cvs/conferences.md" >}})
+- [Conferences and Presentations]({{< ref "cvs/conferences.md" >}})

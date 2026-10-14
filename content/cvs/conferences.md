@@ -16,15 +16,15 @@ header:
 
 **(Selected conferences and presentations)**
 
-30 June 2009\. “[**Issues and Challenges in Estimating Political Preferences from** ](/pdfs/EITM_Mannheim_2009.pdf)[**Text**](/pdfs/EITM_Mannheim_2009.pdf)“. Empirical Implications of Theoretical Models, ECPR Summer School, University of Mannheim.
+30 June 2009\. “[**Issues and Challenges in Estimating Political Preferences from Text**](/pdfs/EITM_Mannheim_2009.pdf)”. Empirical Implications of Theoretical Models, ECPR Summer School, University of Mannheim.
 
-19-20 October 2007\. Political Studies Association of Ireland annual conference. Presented paper “Irish Political Parties and Policcy Stances on European Integration: A Research Note.”
+19-20 October 2007\. Political Studies Association of Ireland annual conference. Presented paper “Irish Political Parties and Policy Stances on European Integration: A Research Note.”
 
 Presentation to the Political Science and Political Economy Group, London School of Economics, 16 October 2007\. Title: “Estimating Party Policy Positions with Uncertainty Based on Manifesto Codings.”
 
-Voters, Coalitions, and Democratic Accountability Workshop Funded by the British Academy University of Exeter, October 5-6, 2007\. University of Exeter. Presented paper “Party Policy and Group Affliation in the European Parliament.”
+Voters, Coalitions, and Democratic Accountability Workshop Funded by the British Academy University of Exeter, October 5-6, 2007\. University of Exeter. Presented paper “Party Policy and Group Affiliation in the European Parliament.”
 
-30 August – 2 September, 2007\. Annual Meeting of the American Political Science Association, Hyatt Regency and Sheraton Chicago Chicago, Illinois. Presented paper “Treating Words as Data with Error: Estimating Uncertainty in the Comparative Manifesto Project Measures” (with Michael Laver and Slava Mikhaylov).
+30 August – 2 September, 2007\. Annual Meeting of the American Political Science Association, Hyatt Regency and Sheraton Chicago, Chicago, Illinois. Presented paper “Treating Words as Data with Error: Estimating Uncertainty in the Comparative Manifesto Project Measures” (with Michael Laver and Slava Mikhaylov).
 
 2007 Annual National Conference of the Midwest Political Science Association, April 12-15, Palmer House Hilton Hotel, Chicago. Presented paper, “Mapping Policy Preferences with Uncertainty: Measuring and Correcting Error in Comparative Manifesto Project Estimates” (with Michael Laver and Slava Mikhaylov).
 
@@ -42,27 +42,25 @@ European Consortium for Political Research Conference, Joint Sessions, Granada, 
 
 Comparing Policy Positions. University of Amsterdam, October 15-17, 2004\. Presented paper “Estimating party policy positions: Comparing expert surveys and hand-coded content analysis.” (with Michael Laver)
 
-2003 Annual Meeting of the American Political Science Association, Philadelphia Mariott and Convention Center, August 28-September 2\. Presented paper “A Fistful of Euros: Campaign spending effects under the single-transferable vote electoral system.” (with Michael Marsh)
+2003 Annual Meeting of the American Political Science Association, Philadelphia Marriott and Convention Center, August 28-September 2\. Presented paper “A Fistful of Euros: Campaign spending effects under the single-transferable vote electoral system.” (with Michael Marsh)
 
 62nd Annual Meeting of the Midwest Political Science Association Meeting, Palmer House Hilton, Chicago, April 15-18, 2004\. Presented paper “A Fistful of Euros: Campaign Spending Effects under the STV Electoral System.” (with Michael Marsh).
 
-Free University of Berlin, December 15, 2003\. Gave presentation entitled “Mapping Policy Spaces: Ireland and Germany.” Sponsored by a Jean Monet Network of Excellence project.
+Free University of Berlin, December 15, 2003\. Gave presentation entitled “Mapping Policy Spaces: Ireland and Germany.” Sponsored by a Jean Monnet Network of Excellence project.
 
 2003 Annual Meeting of the Political Studies Association of Ireland, 17-19 October, Portmarnock Hotel and Golf Links, Portmarnock, Ireland. Presented paper “Campaign spending effects under the single-transferable vote electoral system” (with Michael Marsh).
 
-2003 Annual Meeting of the American Political Science Association, Philadelphia Mariott and Convention Center. August 28-September 2\. Presented paper “A Fistful of Euros: Campaign spending effects under the single-transferable vote electoral system.” (with Michael Marsh).
-
 Stata User Group Meeting, Trinity College, Dublin, 22 May 2003\. Presented “Text Analysis Using Stata: The Wordscoring Approach to Content Analysis Using Words as Data.”
 
-61th Annual Meeting of the Midwest Political Science Association Meeting, Palmer House Hilton, Chicago, April 3-6, 2003\. Presented paper “Extracting Policy Positions From Political Texts Using Word Phrases as Data” (with Michael Laver).
+61st Annual Meeting of the Midwest Political Science Association Meeting, Palmer House Hilton, Chicago, April 3-6, 2003\. Presented paper “Extracting Policy Positions From Political Texts Using Word Phrases as Data” (with Michael Laver).
 
 2002 Annual Meeting of the Political Studies Association of Ireland, 18-20 October, Jury’s Hotel Belfast. Presented paper “Campaign Spending in the Local Government Elections of 1999” (with Michael Marsh).
 
-2002 Annual Meeting of the American Political Science Association, Boston Mariott Copley Place and Sheraton Boston Hotel and Towers, August 26-September 1\. Presented paper “The Evolution of Policy-Seeking Political Competition Between Elections” (with Michael Laver).
+2002 Annual Meeting of the American Political Science Association, Boston Marriott Copley Place and Sheraton Boston Hotel and Towers, August 26-September 1\. Presented paper “The Evolution of Policy-Seeking Political Competition Between Elections” (with Michael Laver).
 
-2002 Annual Meeting of the American Political Science Association, Boston Mariott Copley Place and Sheraton Boston Hotel and Towers, August 26-September 1\. Presented paper “The Evolution of Electoral Systems in Eastern Europe.”
+2002 Annual Meeting of the American Political Science Association, Boston Marriott Copley Place and Sheraton Boston Hotel and Towers, August 26-September 1\. Presented paper “The Evolution of Electoral Systems in Eastern Europe.”
 
-Ecological Inference Conference, Center for Basic Research in the Social Sciences, Harvard University, June 17-18, 2002\. Presented paper “ `Instrumental’ and `expressive’ voting in mixed- member electoral systems: Split-ticket voting in Italy” with Daniela Giannetti and Michael Laver.
+Ecological Inference Conference, Center for Basic Research in the Social Sciences, Harvard University, June 17-18, 2002\. Presented paper “‘Instrumental’ and ‘expressive’ voting in mixed-member electoral systems: Split-ticket voting in Italy” with Daniela Giannetti and Michael Laver.
 
 60th Annual Meeting of the Midwest Political Science Association Meeting, Palmer House Hilton, Chicago, April 25-28, 2002\. Presented paper “Money Always Matters? The Effects of Campaign Spending in the Irish Local Elections of 1999” with Michael Marsh.
 
@@ -76,23 +74,23 @@ Veterinary Laboratories Agency, Department of Bacterial Diseases, New Haw, Surre
 
 Nuffield College, Oxford University, January 19, 2001\. Gave a talk on “A Theory of Electoral Systems” to Sociology and Politics Seminar.
 
-American Association for the Advancement of Slavic Studies, 32nd National Convention. Adams Mark Hotel, Denver, Colorado, November 9-12, 2000\. Participated in a roundtable on “Post- communist Elections: Trends and Meanings.”
+American Association for the Advancement of Slavic Studies, 32nd National Convention. Adams Mark Hotel, Denver, Colorado, November 9-12, 2000\. Participated in a roundtable on “Post-communist Elections: Trends and Meanings.”
 
-2000 Annual Meeting of the American Political Science Association, Mariott Wardman Park, Washington, D.C., August 31-September 3, 2000\. Presented “Strategic voting in Mixed- Member Systems: The Italian Case,” with Daniela Gianetti and Michael Laver. Also presented “Two Step Forward, One Steps Back: Electoral Strategy in the Hungarian Elections of 1998.”
+2000 Annual Meeting of the American Political Science Association, Marriott Wardman Park, Washington, D.C., August 31-September 3, 2000\. Presented “Strategic voting in Mixed-Member Systems: The Italian Case,” with Daniela Giannetti and Michael Laver. Also presented “Two Steps Forward, One Step Back: Electoral Strategy in the Hungarian Elections of 1998.”
 
 58th Annual Meeting of the Midwest Political Science Association Meeting, Palmer House Hilton, Chicago, April 27-30, 2000\. Presented paper “The Comparative Statics of Fission and Fusion in a Party System,” with Michael Laver.
 
 World Democratization Conference, February 16-19, 2000, Omni Hotel, Houston, Texas. Presented paper “A Theory of Electoral Systems.”
 
-1999 Annual Meeting of the American Political Science Association, Atlanta Mariott Marquis and Atlanta Hilton and Towers, September 2-5, 1999\. Delivered paper “The Endogeneity Problem in Electoral Studies: A Critical Reexamination of Duverger’s Mechanical Effect.”
+1999 Annual Meeting of the American Political Science Association, Atlanta Marriott Marquis and Atlanta Hilton and Towers, September 2-5, 1999\. Delivered paper “The Endogeneity Problem in Electoral Studies: A Critical Reexamination of Duverger’s Mechanical Effect.”
 
 57th Annual Meeting of the Midwest Political Science Association, Palmer House Hilton, Chicago, April 15-17, 1999\. Delivered paper “A Simulation-Based Forecasting Model for Multiparty Elections.”
 
 Conference on Mixed Electoral Systems, December 11-13, 1998, Balboa Bay Club, Newport Beach, California. Presented paper “Evaluating Hungary’s Mixed-member Electoral System.”
 
-Political Studies Association of Ireland Annual Conference, 9-11 October 1998, Canal Court Hotel, Newry, Northern Ireland. Presented paper “The Problem of Endogenous Electoral Sys- tems.”
+Political Studies Association of Ireland Annual Conference, 9-11 October 1998, Canal Court Hotel, Newry, Northern Ireland. Presented paper “The Problem of Endogenous Electoral Systems.”
 
-1998 Annual Meeting of the American Political Science Association, Boston Mariott Copley Place and Sheraton Boston Hotel and Towers, September 3-6, 1998\. Presented paper “The Number of Parties: New Evidence from Local Elections.”
+1998 Annual Meeting of the American Political Science Association, Boston Marriott Copley Place and Sheraton Boston Hotel and Towers, September 3-6, 1998\. Presented paper “The Number of Parties: New Evidence from Local Elections.”
 
 American Association for the Advancement of Slavic Studies, Boston, November 14-47, 1996\. Presented paper “Rethinking Duverger’s Law in Hungary’s Elections: Electoral Systems as Political Compromises,” co-authored with John W. Schiemann.
 
@@ -100,12 +98,12 @@ Conference on Political Methodology, July 1996\. Presented dissertation research
 
 Democracy, Markets, and Civil Societies in Post-1989 East Central Europe, Center for European Studies, Harvard University, May 17-19, 1996.
 
-Northeastern Political Science Association Annual Meeting, Newark, NJ, November 9-11, 1995\. Presented paper “Electoral System Origins: Institutional Choice in Hungary,”co-authored with John W. Schiemann.
+Northeastern Political Science Association Annual Meeting, Newark, NJ, November 9-11, 1995\. Presented paper “Electoral System Origins: Institutional Choice in Hungary,” co-authored with John W. Schiemann.
 
 Conference on Comparative Democratic Elections, Kennedy School of Government, Harvard University, May 12-14, 1995.
 
 Conference on Political Methodology, University of Wisconsin at Madison, July 1994.
 
-Conference on Race, Ethnicity, and Governance. Harvard University, June 17-18, 1993\. Pre sented paper “Electoral Systems and Minority Representation,” with Kenneth Shepsle.
+Conference on Race, Ethnicity, and Governance. Harvard University, June 17-18, 1993\. Presented paper “Electoral Systems and Minority Representation,” with Kenneth Shepsle.
 
 Conference on Political Methodology, Harvard University, July 1992.

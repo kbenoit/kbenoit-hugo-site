@@ -19,14 +19,14 @@ header:
 
 **ERC Proof-of-Concept Grant**, European Commission, for "QUANTEDA:
  Quantitative Analysis of Textual Data" (number 812960),
- 2018--2020.  €150,000 total.
+ 2018–2020.  €150,000 total.
 
- **Horizon 2020 Grant**, European Commission, for "EUENGAGE:
+**Horizon 2020 Grant**, European Commission, for "EUENGAGE:
  Bridging the gap between public opinion and European leadership:
  Engaging a dialogue on the future path of Europe" (number 649281),
- 2015--2018.  €211,075 total.
+ 2015–2018.  €211,075 total.
 
-**Starting Investigator Grant**, European Research Commission, for “QUANTESS: Quantitative Analysis of Text for the Social Sciences” (ERC-2011-StG 283794-QUANTESS). €1,357,000 for 2011-2016.
+**Starting Investigator Grant**, European Research Council, for “QUANTESS: Quantitative Analysis of Text for the Social Sciences” (ERC-2011-StG 283794-QUANTESS). €1,357,000 for 2011-2016.
 
 **Small Project Grant**, Irish Research Council of the Humanities and Social Sciences, 2008-2009\. €48,883 to establish a World Database of Parties, Elections, and Governments.
 
@@ -34,9 +34,9 @@ header:
 
 **Government of Ireland Research Scholarship**, Irish Research Council of the Humanities and Social Sciences, 2006-2007\. Provided €42,000 to provide replacement for a one-year sabbatical.
 
-**Scholar Exchange Scheme**, Royal Irish Academy (April 2006). One month sponsorship between Irish Royal Academy and Hungarian Academy of Sciences for study in Budapest (approx €2,000).
+**Scholar Exchange Scheme**, Royal Irish Academy (April 2006). One month sponsorship between Royal Irish Academy and Hungarian Academy of Sciences for study in Budapest (approx €2,000).
 
-**International Institute for Integration Studies funded project**: Globalisation and Party Competition. Trinity College, University of Dublin. Second-round funded collaborative project (with Gail McElroy, Michael Marsh, and Robert Thomson). Total: €100,000.
+**Institute for International Integration Studies funded project**: Globalisation and Party Competition. Trinity College, University of Dublin. Second-round funded collaborative project (with Gail McElroy, Michael Marsh, and Robert Thomson). Total: €100,000.
 
 **Enterprise Ireland Proof-of-Concept Grant** (2004-2005). €78,431 for developing a method to extract information from texts using computerized content analysis. Duration: 12 months.
 
@@ -44,11 +44,11 @@ header:
 
 **European Fifth Framework Grant** (2002-2006). Received €97,695 for the Trinity College-based team on the project _Domestic Structures of European Integration (DOSEI)_, headed by Thomas König.
 
-**Government of Ireland Research Scholarship**, Irish Research Council of the Humanities and Social Sciences (September 2002 – August 2003). Provides €36,000 to provide replacement for a one-year sabbatical.
+**Government of Ireland Research Scholarship**, Irish Research Council of the Humanities and Social Sciences (September 2002 – August 2003). Provided €36,000 to provide replacement for a one-year sabbatical.
 
-**International Institute for Integration Studies funded project**: Spatial Models of Party Competition. Trinity College, University of Dublin. Approximately €45,000 for research, travel, and pre-doctoral assistant for work on cross-national electoral and party systems.
+**Institute for International Integration Studies funded project**: Spatial Models of Party Competition. Trinity College, University of Dublin. Approximately €45,000 for research, travel, and pre-doctoral assistant for work on cross-national electoral and party systems.
 
-**Scholar Exchange Scheme**, Royal Irish Academy (April 2002). One month sponsorship between Irish Royal Academy and Hungarian Academy of Sciences for study in Budapest (approx €2,000).
+**Scholar Exchange Scheme**, Royal Irish Academy (April 2002). One month sponsorship between Royal Irish Academy and Hungarian Academy of Sciences for study in Budapest (approx €2,000).
 
 **Social Science Research Council Research Grant**, Royal Irish Academy (1999). IR£20,000 grant for research on Eastern European electoral system origins.
 

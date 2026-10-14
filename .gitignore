@@ -12,3 +12,6 @@ public/
 .DS_Store
 
 /.quarto/
+.positai
+_site/
+.hugo_build.lock

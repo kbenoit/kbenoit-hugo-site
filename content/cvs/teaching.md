@@ -15,7 +15,7 @@ header:
 ---
 
 
-**Quantitative Text Analysis**, European Consortium for Political Research, Summer School in Methods and Techniques, University of Ljubjana, 2008, 2009, 2010.
+**Quantitative Text Analysis**, European Consortium for Political Research, Summer School in Methods and Techniques, University of Ljubljana, 2008, 2009, 2010.
 
 **Introduction to Multilevel Models**, European University Institute, Florence, June 4-9, 2009.
 
@@ -27,7 +27,7 @@ header:
 
 **Mathematics for Political Scientists**, Trinity College, Ph.D. Program in Political Science, 1999-2002.
 
-**Analyzing Electoral Data**, Teaching, Methods and Research (TMR) Programme, Winter School, UniversitÃ© Catholique de Louvain, Belgium, January 2002.
+**Analyzing Electoral Data**, Teaching, Methods and Research (TMR) Programme, Winter School, Université catholique de Louvain, Belgium, January 2002.
 
 **Comparative Political Institutions**, Trinity College, Department of Political Science, 2003-present. Senior sophister seminar.
 

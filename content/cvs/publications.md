@@ -18,7 +18,7 @@ header:
 
 2026\. Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma.
 "[Using Large Language Models to Analyze Political Texts Through Natural Language Understanding](https://onlinelibrary.wiley.com/doi/10.1111/ajps.70050)."
-_**American Journal of Political Science**_. [10.1111/ajps.70050](https://doi.org/10.1111/ajps.70050)
+_**American Journal of Political Science**_ 70(Oct, 4): 1589–1605. [10.1111/ajps.70050](https://doi.org/10.1111/ajps.70050)
 
 2025\. Benoit, Kenneth. "[Forging The Future: How AI is rewriting the rules of knowledge, expertise, and practice](https://cmp.smu.edu.sg/ami/issues/volume-12-issue-2/vantage-point/forging-future?new=1)." _**Asian Management Insights**_ 12(2, July 2025): 12–19.
 

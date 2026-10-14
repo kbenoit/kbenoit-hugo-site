@@ -54,6 +54,8 @@ header:
 
 ### Awards
 
+**Winner of the Gulbenkian Prize 2011** (awarded jointly with Nina Wiesehomeier). For “Presidents, Parties And Policy Competition,” _Journal of Politics_ 71(4, October): 1435–1447. Best paper published by a young social scientist (in all fields except economics) from a Portuguese institution in an international journal in the past two years.
+
 **Winner of 1999 APSA Best Research Web Site Award** (awarded as part of a group). Presented by the Computers and Multimedia Section at the 1999 annual meeting.
 
 **Winner of 1998 APSA Best Research Software Award.** Presented by the Computers and Multimedia Section at the 1998 annual meeting, with Gary King.

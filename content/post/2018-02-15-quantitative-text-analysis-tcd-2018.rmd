@@ -277,7 +277,7 @@ Ruths, D., & Pfeffer, J. 2014. "[Social media for large studies of behavior.](ht
 
 Seale, Clive, Sue Ziebland and Jonathan Charteris-Black. 2006. “Gender, cancer experience and internet use: A comparative keyword analysis of interviews and online cancer support groups.” _Social Science & Medicine_ 62(10):2577–2590.
 
-Slapin, Jonathan B. and Sven-Oliver Proksch. 2008. “A Scaling Model for Estimating Time-Series Party Positions from Texts.” _American Journal of Political Science_ 52(3):705–722. doi: [`10.1111/j.1540-5907.2008.00338.x`](10.1111/j.1540-5907.2008.00338.x).
+Slapin, Jonathan B. and Sven-Oliver Proksch. 2008. “A Scaling Model for Estimating Time-Series Party Positions from Texts.” _American Journal of Political Science_ 52(3):705–722. doi: [`10.1111/j.1540-5907.2008.00338.x`](https://doi.org/10.1111/j.1540-5907.2008.00338.x).
 
 Steinert-Threlkeld, Z. 2018. "[Twitter as Data.](https://www.cambridge.org/core/elements/twitter-as-data/27B3DE20C22E12E162BFB173C5EB2592)" Cambridge University Press.
 

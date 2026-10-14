@@ -65,7 +65,7 @@ Kenneth Benoit and Michael Laver. 2006. _[**Party Policy in Modern Democracies**
 
 
 
-  Duverger, Maurice. 1959. _Political parties: Their organization and activity in the modern state_. Second English Revised ed. London: Methuen & Co. Book II, Chapter 1, "The Number of Parties."Also see [this related reading](olitical_Science/local/docs/olitical_Science/local/docs/Duverger_InfOfElectSys.pdf).
+  Duverger, Maurice. 1959. _Political parties: Their organization and activity in the modern state_. Second English Revised ed. London: Methuen & Co. Book II, Chapter 1, "The Number of Parties."Also see this related reading.
 
 
 

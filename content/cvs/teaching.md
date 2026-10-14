@@ -14,6 +14,23 @@ header:
   image: ""
 ---
 
+### Recent teaching
+
+**Data Science and AI for Executives**, LSE Executive Education Programme, 2018–2026.
+
+**Introduction to Data Science and Machine Learning (ME314)**, LSE Summer School (Research Methods, Data Science, and Mathematics), 2015–2024.
+
+**Data for Data Scientists (MY472)**, MSc module in Methodology, LSE, 2017–2019.
+
+**Computer Programming (MY470)**, MSc module in Methodology, LSE, 2017–2019.
+
+**Fundamentals of Social Science Research Design (MY400)**, MSc module in Methodology, LSE, 2011–2019.
+
+**Quantitative Text Analysis (MY459)**, MSc module in Methodology, LSE, variously from 2011–2019.
+
+**Applied Regression Analysis (MY452)**, LSE.
+
+### Earlier teaching
 
 **Quantitative Text Analysis**, European Consortium for Political Research, Summer School in Methods and Techniques, University of Ljubljana, 2008, 2009, 2010.
 
@@ -29,10 +46,10 @@ header:
 
 **Analyzing Electoral Data**, Teaching, Methods and Research (TMR) Programme, Winter School, Université catholique de Louvain, Belgium, January 2002.
 
-**Comparative Political Institutions**, Trinity College, Department of Political Science, 2003-present. Senior sophister seminar.
+**Comparative Political Institutions**, Trinity College, Department of Political Science, from 2003. Senior sophister seminar.
 
 **Comparative Politics**, Trinity College, Department of Political Science, 1998-1999; Central European University M.A. program (1997); University of New Hampshire (1996).
 
-**Transition Politics**, Trinity College, Department of Political Science, 1998-present.
+**Transition Politics**, Trinity College, Department of Political Science, from 1998.
 
 **Senior Research Seminar**, Trinity College, Department of Political Science, 1999-2000.

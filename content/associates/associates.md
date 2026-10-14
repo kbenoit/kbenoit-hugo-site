@@ -9,18 +9,13 @@ title = "Associates"
 author = "admin"
 +++
 
-### Current Ph.D. students
-
-*   Yuanmo He (LSE)
-*   Sarah Jewett (LSE)
-
 ### Current Post-Docs
 
 *   Jinshuai Ma
 
 ### Alumni: Ph.D. students
 
-*   [Alexander Baturo](https://www.dcu.ie/law_and_government/people/alex-baturo.shtml) (TCD, 2008), Dublin City University
+*   [Alexander Baturo](https://www.dcu.ie/lawandgovernment/people/alex-baturo) (TCD, 2008), Dublin City University
 *   [Francesco Cavatorta](https://www.pol.ulaval.ca/?pid=1555) (TCD, 2003), Professor, Université Laval
 *   Ed Coughlan (TCD, 2015), Trinity College Dublin
 *   Alan Duggan (TCD, 2020), Trinity College Dublin.
@@ -30,15 +25,15 @@ author = "admin"
 *   Jacqueline Hayden (TCD, 2002), Trinity College Dublin
 *   Andres Hinrichsen (TCD, 2016)
 *   Brighid Brooks Kelly (TCD, 2007), Winner of the 2008 Basil Chubb Prize for best PhD Dissertation
-*   [Matthew Kerby](http://politicsir.cass.anu.edu.au/people/profile/dr-matthew-kerby) (2007), Senior Lecturer, Australian National University
+*   [Matthew Kerby](https://www.policyforum.net/authors/matthew-kerby/) (2007), Senior Lecturer, Australian National University
 *   Vanessa Liston (TCD, 2008)
 *   [Slava Mikhaylov](http://www.smikhaylov.net/) (TCD, 2009) Professor, Hertie School
 *   Susanna Pearce (TCD, 2004)
-*   [Matthew Wall](https://www.swansea.ac.uk/staff/arts-and-humanities/academic/wallm/) (TCD, 2010), Senior Lecturer, Swansea University
-*   [Thomas Däubler](http://www.mzes.uni-mannheim.de/d7/en/profiles/thomas-daubler "Thomas Däubler") (TCD, 2012), Post-doc Fellow, MZES Mannheim
-*   [Raimondas Ibenskas](https://www.uib.no/en/persons/Raimondas.Ibenskas) (TCD, 2012), Associate Professor, University of Bergen
-*   [Tom Paskhalis](https://tom.paskhal.is/) (LSE, 2020).  Postdoctoral Fellow, Center for Social Media and Politics, New York University.
-*   [Carolina Plescia](https://carolinaplescia.wordpress.com/) (2013). Assistant Professor, University of Vienna, Winner of the 2014 ECPR Jean Blondel Prize for the best PhD thesis in politics.
+*   [Matthew Wall](https://www.swansea.ac.uk/staff/m.t.wall/) (TCD, 2010), Senior Lecturer, Swansea University
+*   [Thomas Däubler](https://people.ucd.ie/thomas.daubler "Thomas Däubler") (TCD, 2012), University College Dublin
+*   [Raimondas Ibenskas](https://www4.uib.no/en/find-employees/raimondas.ibenskas) (TCD, 2012), Associate Professor, University of Bergen
+*   [Tom Paskhalis](https://tom.paskhal.is/) (LSE, 2020), Assistant Professor, Trinity College Dublin
+*   Carolina Plescia (2013), University of Vienna, Winner of the 2014 ECPR Jean Blondel Prize for the best PhD thesis in politics.
 *   Catherine Riordan (TCD, 2013)
 *   Magda Staniek (TCD, 2013)
 *   Jan Stuckatz (LSE, 2019)
@@ -48,26 +43,26 @@ author = "admin"
 ### Alumni: Post-Docs
 
 *   Marina McGale, Australian National University
-*   [William Lowe](http://conjugateprior.org), Hertie School
+*   [William Lowe](https://conjugateprior.org), Hertie School
 *   [Paul Nulty](https://github.com/pnulty), University College Dublin
 *   [Haiyan Wang](https://github.com/HaiyanLW), DeBeers
 *   Gokhan Ciflikli
 *   Kohei Watanabe
-*   [Akitaka Matsuo](http://amatsuo.net)
+*   [Akitaka Matsuo](https://amatsuo.net)
 
 ### Co-authors
 
-See "Co-authors" from https://scholar.google.com.au/citations?user=hp1p9TEAAAAJ&hl=en#
+See "Co-authors" on my [Google Scholar profile](https://scholar.google.com/citations?user=hp1p9TEAAAAJ).
 
 
 ### Institutional affiliations
 
-*   [School of Social Sciences, Singapore Management University](https://socsc.smu.edu.sg), Dean and Professor of Computational Social Science, 2024-present
-*   [Department of Methodology, London School of Economics and Political Science](http://www.lse.ac.uk/methodology/), Professor of Computational Social Science, 2011-present; on unpaid leave 2024-2025
-*   [School of Politics and International Relations](http://politicsir.cass.anu.edu.au/), Australian National University, Professor (Part-Time) 2019-2024
-*   [Social and Economic Data Sciences Unit](http://lse.ac.uk/seds/), London School of Economics and Political Science, Director, 2016 - 2018
-*   [Department of Political Science, Trinity College Dublin](http://www.politics.tcd.ie/ "Trinity College Dublin Political Science"), 1998-2010; 2012-2018 (Part-time)
-*   [Department of Politics, New York University](http://politics.as.nyu.edu/page/home), Visiting Professor 2014
-*   [Institute for International Integration Studies, Trinity College Dublin](http://www.tcd.ie/iiis/ "IIIS, Trinity College"), Associate, 2004-2010
-*   [Department of Government, Harvard University](http://www.gov.harvard.edu/ "Dept. of Government, Harvard U."), PhD student 1991-1998
-*   [Department of Political Science, Central European University](http://web.ceu.hu/polsci/ "CEU Dept. of Political Science"), Lecturer, 1997-1998; Visiting Professor, 2011
+*   [School of Social Sciences, Singapore Management University](https://socsc.smu.edu.sg), Dean and Professor of Computational Social Science, 2024-present; Lee Kong Chian Professor of Computational Social Science, 2026-2027
+*   [Department of Methodology, London School of Economics and Political Science](https://www.lse.ac.uk/methodology), Professor of Computational Social Science, 2010-2024; Director, [Data Science Institute](https://www.lse.ac.uk/dsi), 2020-2024
+*   [School of Politics and International Relations](https://politicsir.cass.anu.edu.au/), Australian National University, Professor (Part-Time) 2018-2024
+*   Social and Economic Data Sciences Unit, London School of Economics and Political Science, Director, 2016-2018
+*   [Department of Political Science, Trinity College Dublin](https://www.tcd.ie/Political_Science/ "Trinity College Dublin Political Science"), 1998-2010; 2012-present (Part-time)
+*   [Department of Politics, New York University](https://as.nyu.edu/departments/politics.html), Visiting Professor 2014
+*   [Institute for International Integration Studies, Trinity College Dublin](https://www.tcd.ie/iiis/ "IIIS, Trinity College"), Associate, 2004-2010
+*   [Department of Government, Harvard University](https://www.gov.harvard.edu/ "Dept. of Government, Harvard U."), PhD student 1991-1998
+*   [Department of Political Science, Central European University](https://www.ceu.edu/departments/political-science "CEU Dept. of Political Science"), Lecturer, 1997-1998; Visiting Professor, 2011

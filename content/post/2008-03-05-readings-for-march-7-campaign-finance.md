@@ -13,7 +13,7 @@ Required:
 
 [Jacobson, Gary C. 1978. "The Effects of Campaign Spending in Congressional Elections."_American Political Science Review_ 72 (June): 469-91.](/pdfs/Jacobson1978.pdf)
 
-[Kenneth Benoit and Michael Marsh. "A Fistful Of Euros: Incumbent And Challenger Campaign Spending Effects Under The Single-Transferable Vote Electoral System."](/pdfs/fistful30nov2007.pdf) Trinity College manuscript.
+[Kenneth Benoit and Michael Marsh. "A Fistful Of Euros: Incumbent And Challenger Campaign Spending Effects Under The Single-Transferable Vote Electoral System."](/pdfs/fistful30nov2007.pdf.pdf) Trinity College manuscript.
 
 [Stratmann, Thomas. 2005. "Some talk: Money in politics. A (partial) review of the literature."_Public Choice_ 124:135-56.](/pdfs/stratmann.pdf)
 

@@ -18,4 +18,3 @@ author = "admin"
 - [Grants and Awards]({{< ref "cvs/grants-and-awards.md" >}})
 - [Service]({{< ref "cvs/service.md" >}})
 - [Teaching]({{< ref "cvs/teaching.md" >}})
-- [Conferences and Presentations]({{< ref "cvs/conferences.md" >}})

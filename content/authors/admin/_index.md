@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Computational Social Science
+role: Dean, School of Social Sciences, and Lee Kong Chian Professor of Computational Social Science
 
 # Organizations/Affiliations
 organizations:
@@ -82,7 +82,7 @@ user_groups:
 - Visitors
 ---
 
-Kenneth Benoit is Dean of the [School of Social Sciences](https://socsc.smu.edu.sg) and Professor of Computational Social Science, Singapore Management University.  He has previously held positions at the [London School of Economics and Political Science](http://www.lse.ac.uk/), where he was Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) and before that, Head of the [Department of Methodology](http://www2.lse.ac.uk/methodologyInstitute/Home.aspx); Professor (Part-time) in the School of Politics and International Relations, Australian National University; Professor of Quantitative Social Sciences in the [Department of Political Science](http://www.tcd.ie/Political_Science/) at [Trinity College Dublin](http://www.tcd.ie "TCD"); and at the [Central European University](http://www.ceu.hu) (Budapest).
+Kenneth Benoit is Dean of the [School of Social Sciences](https://socsc.smu.edu.sg) and Lee Kong Chian Professor of Computational Social Science, Singapore Management University.  He has previously held positions at the [London School of Economics and Political Science](https://www.lse.ac.uk/), where he was Director of the [Data Science Institute](https://www.lse.ac.uk/dsi) and before that, Head of the [Department of Methodology](https://www.lse.ac.uk/methodology); Professor (Part-time) in the School of Politics and International Relations, Australian National University; Professor of Quantitative Social Sciences in the [Department of Political Science](https://www.tcd.ie/Political_Science/) at [Trinity College Dublin](https://www.tcd.ie "TCD"); and at the [Central European University](https://www.ceu.edu) (Budapest).
 
 He received his Ph.D. (1998) from Harvard University, Department of Government with a specialization in applied statistical methods.
 
@@ -92,6 +92,7 @@ Google Scholar Page [here](https://scholar.google.co.uk/citations?user=hp1p9TEAA
 
 Contact details:  
 School of Social Sciences  
+10 Canning Rise  
 Singapore Management University  
 Singapore 179873  
 [kbenoit@smu.edu.sg](mailto:kbenoit@smu.edu.sg "Send me an e-mail")

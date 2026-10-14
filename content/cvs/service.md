@@ -17,57 +17,79 @@ header:
 
 ### Service to Discipline
 
-_[European Political Science Association](http://www.epsanet.org)_: Co-founder; Treasurer/Vice-President 2011–present; First Annual General Conference Organizer 2011; Programme Committee Chair, 2014 Annual Conference.
+Social Science Research Council, Singapore: Council member, 2025–present.
 
-University Service, London School of Economics and Political Science:
+European Political Science Society: Co-founder; Treasurer and Council member, 2025–present.
 
-*   Head of Department, Department of Methodology, 2011–2013.  
-*   Director, Social and Economic Data Sciences Unit, 2016–present.  
-*   Director of the Doctoral Training Centre, 2011–2013.  
+_[European Political Science Association](https://www.eps-academic.org/)_: Co-founder; Executive Director 2017–2024; Treasurer/Vice-President 2011–2017; Programme Committee Chair, 2011, 2014, 2017, 2019, and 2023 Annual Conferences.
 
-_External examiner_ for Research Methods in the Department of Political Science, University College London, 2012-present.
+American Political Science Association: Council member, 2013–2015.
 
-_External assessor_, Quality Review of the School of Law and Government, Dublin City University, 7-9 February 2007.
+Advisory Board Member, Data Science Institute, London School of Economics and Political Science, 2024–present.
 
-_Section chair_, Representation and Electoral Systems, 2007 Annual Meeting of the Midwest Political Science Association Meeting, Chicago.
+### Editorial Roles
 
-_Editorial board_, Book series: Interests, Identities, and Institutions in Comparative Politics, University of Michigan Press, 2006-present.
+*   Editorial board, _Political Science Research and Methods_, 2016–present.
+*   Associate editor, _American Political Science Review_, 2016–2020.
+*   Associate editor, _Political Science Research and Methods_, 2012–2016.
+*   Editorial board, _American Political Science Review_, 2012–2016.
+*   Editorial board, _Electoral Studies_, 2003–2022.
+*   Editorial board, Book series: Interests, Identities, and Institutions in Comparative Politics, University of Michigan Press, 2006–2022.
 
-_Editorial board_, _Electoral Studies_, 2003-present
+### University Service
 
-_Member_, Standing Group on Analytical Politics and Public Choice, European Consortium for Political Research, 2005-present.
+Singapore Management University:
+
+*   Dean, School of Social Sciences, 2024–present.
+
+London School of Economics and Political Science:
+
+*   Director, Data Science Institute, 2020–2024.
+*   Programme Director, LSE Summer School, Methods, Data Science, and Mathematics, 2018–2020.
+*   Head of Department, Department of Methodology, 2011–2013; 2015–2018.
+*   Director, Social and Economic Data Sciences Unit, 2016–2018.
+*   Director of the Doctoral Training Centre, 2011–2013.
+
+Trinity College Dublin:
+
+*   Head of Department, Political Science, 2008–2010.
+*   Executive Board member, Institute for International Integration Studies, 2004–2008.
+*   Director of Teaching and Learning, Postgraduate Programme, School of Social Sciences and Philosophy, 2005–2007.
+*   Executive Committee, School of Social Sciences and Philosophy, 2005–2007; 2008–present.
+*   Graduate Strategy Working Group on Graduate Education (sub-committee of the Graduate Studies Committee), 2005–2006.
+*   Director of Graduate Admissions, Department of Political Science, 2003–2005.
+*   Graduate Director, Department of Political Science, 1999–2002.
+*   External referee, New Lecturers’ Start-Up Fund Applications, 2005.
+*   School of Social Sciences and Philosophy, Post-Graduate Working Party, 2005.
+*   Career Services Advisory Committee, 2004–2005.
+*   Provost’s Lecturers Forum, BESS Representative, 2003–2005.
+*   Fellows’ Standing Committee, 2004–2005.
+*   Graduate Studies Committee, 2000–2006.
+*   Fulbright Selection Committee (Ireland), Spring 2000.
+*   College Tutor, 1999–2006.
+*   Business, Economics, and Social Studies Faculty Executive Committee, 1998–1999.
+*   Y2K Committee, 1998–2000.
+
+### Other Professional Service
+
+_External examiner_ for Research Methods in the Department of Political Science, University College London, 2012–2016.
+
+_External review panel member_, Review of the College of Arts and Sciences, Australian National University, 2015.
+
+_External assessor_, Quality Review of the School of Law and Government, Dublin City University, 7–9 February 2007.
+
+_Section chair_, Representation and Electoral Systems, 2007 Annual Meeting of the Midwest Political Science Association, Chicago.
+
+_Member_, Standing Group on Analytical Politics and Public Choice, European Consortium for Political Research, 2005–present.
 
 _Member_, International Studies Committee, Royal Irish Academy, 2005.
 
-_Assistant Academic Convener_, ECPR General Conference, Canterbury, UK, September 6-8, 2001. 1999-2001.
+_Assistant Academic Convener_, First ECPR General Conference, Canterbury, UK, September 6–8, 2001 (1999–2001).
 
-_Core team member_, Irish National Social and Political Survey. 1999-2002.
+_Core team member_, Irish National Social and Political Survey, 1999–2002.
 
-_Director_, Political Studies Association of Ireland Press. 1999-2001.
+_Director_, Political Studies Association of Ireland Press, 1999–2001.
 
-_Executive Board Member_, Political Studies Association of Ireland. 1999-2001.
+_Executive Board Member_, Political Studies Association of Ireland, 1999–2001.
 
-Anonymous reviewer for: _American Political Science Review_, _American Journal of Political Science_, _British Journal of Political Science_, _Comparative Political Studies_, _Cambridge University Press_, _Electoral Studies_, _Economics and Politics_, _European Journal of Political Research_, _Irish Political Studies_, _Journal of Information Technology and Politics_, _Japanese Journal of Political Science_, _Journal of Peace Research_, _Journal of Politics_, _Legislative Studies Quarterly_, National Science Foundation, _Party Politics_, _Political Analysis_, _Political Studies_, _Quarterly Journal of Political Science_.
-
-University Service, Trinity College
-
-*   Head of Department, Political Science, 2008-present
-*   Executive Board member, Institute for International Integration Studies, Trinity College, University of Dublin, 2004-present
-*   Director of Teaching and Learning, Postgraduate Programme, School of Social Sciences and Philosophy, 2005-2007
-*   Executive Committee, School of Social Sciences and Philosophy, 2005-2007; 2008-present
-*   Graduate Strategy Working Group on Graduate Education, 2005-2010 (sub-committee of the Graduate Studies Committee), 2005-2006
-*   Director of Graduate Admissions, Department of Political Science, Trinity College Dublin. 2003-2005
-*   Graduate Director, Department of Political Science, Trinity College Dublin. 1999-2002
-*   External referee, New Lecturers’ Start-Up Fund Applications, 2005
-*   School of Social Sciences and Philosophy, Post-Graduate Working Party, 2005
-*   Career Services Advisory Committee, 2004-2005
-*   Provost’s Lecturers Forum, BESS Representative, 2003-2005
-*   Fellows’ Standing Committee, 2004-2005
-*   Trinity Higher Access (RDS Dublin), BESS Representative, September 2001
-*   Mature Student Interviews, History and Political Science, 2001
-*   Job Search Committee, Lecturer in Political Science, 2000
-*   Graduate Studies Committee, 2000-present
-*   Fulbright Selection Committee (Ireland), Spring 2000
-*   College Tutor, 1999-2006
-*   Business, Economics, and Social Studies Faculty Executive Committee, 1998-1999
-*   Y2K Committee, 1998-2000
+Professional referee for more than two dozen major political science and economics journals, university presses, and funding agencies, including _American Political Science Review_, _American Journal of Political Science_, _British Journal of Political Science_, _Comparative Political Studies_, _Electoral Studies_, _European Journal of Political Research_, _Journal of Politics_, _Legislative Studies Quarterly_, _Party Politics_, _Political Analysis_, and the National Science Foundation.

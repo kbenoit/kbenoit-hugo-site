@@ -9,25 +9,12 @@ title = "Current Research"
 author = "admin"
 +++
 
-[Google Scholar Page](http://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ "Kenneth Benoit's Google Scholar page")
+[Google Scholar Page](https://scholar.google.com/citations?user=hp1p9TEAAAAJ "Kenneth Benoit's Google Scholar page")
 
-Patrick Perry and Kenneth Benoit.  October 26, 2017.  "[Scaling Text with the Class Affinity Model](http://arxiv.org/abs/1710.08963)."  London School of Economics and New York University manuscript.  
+My current research uses large language models to analyze political texts.
 
+Benoit, Kenneth, Scott De Marchi, Conor Laver, Michael Laver, and Jinshuai Ma. 2026. "[Using Large Language Models to Analyze Political Texts Through Natural Language Understanding](https://doi.org/10.1111/ajps.70050)." _American Journal of Political Science_ 70(4): 1589–1605.
 
->  Probabilistic methods for classifying text form a rich tradition in machine
-  learning and natural language processing.  For many important problems,
-  however, class prediction is uninteresting because the class is known, and
-  instead the focus shifts to estimating latent quantities related to the
-  text, such as affect or ideology.  We focus on one such problem of interest,
-  estimating the ideological positions of 55 Irish legislators in the 1991
-  Dail confidence vote. To solve the Dail scaling problem and others
-  like it, we develop a text modeling framework that allows actors to take
-  latent positions on a "gray" spectrum between "black" and "white" polar
-  opposites.  We are able to validate results from this model by measuring
-  the influences exhibited by individual words, and we are able to quantify
-  the uncertainty in the scaling estimates by using a sentence-level block
-  bootstrap. Applying our method to the Dail debate, we are able to
-  scale the legislators between extreme pro-government and pro-opposition in a
-  way that reveals nuances in their speeches not captured by their votes or
-  party affiliations.
-  
+Benoit, Kenneth and Michael Laver. 2026. "[Measuring issue salience for political parties using LLMs](https://doi.org/10.1080/01402382.2026.2637134)." _West European Politics_.
+
+[quallmer](https://quallmer.github.io/quallmer/): an R package for qualitative analysis with large language models (with Seraphine F. Maerz).

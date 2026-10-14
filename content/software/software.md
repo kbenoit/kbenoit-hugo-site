@@ -9,14 +9,18 @@ title = "Software"
 author = "admin"
 +++
 
-## [quanteda](https://github.com/kbenoit/quanteda)
+## [quanteda](https://quanteda.io)
 
-R package for the Quantitative Analysis of Textual Data
+R package for the Quantitative Analysis of Textual Data, with companion packages [quanteda.textmodels](https://github.com/quanteda/quanteda.textmodels), [quanteda.textstats](https://github.com/quanteda/quanteda.textstats), and [quanteda.textplots](https://github.com/quanteda/quanteda.textplots).
 
-## [readtext](https://github.com/kbenoit/readtext)
+## [readtext](https://readtext.quanteda.io)
 
 R package for reading text files in all their various formats
 
-## [spacyr](https://github.com/kbenoit/spacyr)
+## [spacyr](https://spacyr.quanteda.io)
 
-R wrapper to SpaCy NLP
+R wrapper to the spaCy NLP library
+
+## [quallmer](https://quallmer.github.io/quallmer/)
+
+R package for qualitative analysis with large language models (with Seraphine F. Maerz)

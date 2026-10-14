@@ -44,9 +44,9 @@ _**American Journal of Political Science**_ 70(4, October): 1589–1605. [10.111
 
 2015\. Herzog, Alexander and Kenneth Benoit. "[The Most Unkindest Cuts: Speaker Selection and Expressed Government Dissent During Economic Crisis](/pdfs/Herzog_Benoit_JOP_2015.pdf)."  _**Journal of Politics**_ 77(4, October): 1157–1175. [10.1086/682670](https://doi.org/10.1086/682670). This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
-2015\. Laver, Michael and Kenneth Benoit. "[The Basic Arithmetic of Legislative Decisions](/pdfs/Basic_arithmetic_LaverBenoit_2012_final.pdf "The basic arithmetic of legislative decisions (preprint)")." _**American Journal of Political Science**_ 59(2, April): 275–291. [10.1111/ajps.12111](https://doi.org/10.1111/ajps.12111) [Presentation](https://www.icloud.com/iw/#keynote/BALPcQwc1Vgs5415CPGBOONq3_-dp4hD4O2E/Integer_Arithmetic).  [On-line legislative type calculator](https://kbenoit.shinyapps.io/legislativetypes/).
+2015\. Laver, Michael and Kenneth Benoit. "[The Basic Arithmetic of Legislative Decisions](/pdfs/Basic_arithmetic_LaverBenoit_2012_final.pdf "The basic arithmetic of legislative decisions (preprint)")." _**American Journal of Political Science**_ 59(2, April): 275–291. [10.1111/ajps.12111](https://doi.org/10.1111/ajps.12111)  [On-line legislative type calculator](https://kbenoit.shinyapps.io/legislativetypes/).
 
-2013\. Lowe, Will and Kenneth Benoit. "[Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark](/pdfs/Political-Analysis-2013-Lowe-298-313.pdf)." _**Political Analysis**_ 21: 298–313. [10.1093/pan/mpt002](https://doi.org/10.1093/pan/mpt002). Replication materials available from the [Political Analysis dataverse](https://hdl.handle.net/1902.1/20387).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
+2013\. Lowe, Will and Kenneth Benoit. "[Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark](/pdfs/Political-Analysis-2013-Lowe-298-313.pdf)." _**Political Analysis**_ 21: 298–313. [10.1093/pan/mpt002](https://doi.org/10.1093/pan/mpt002). Replication materials available from the [Political Analysis dataverse](https://doi.org/10.7910/DVN/QWPDQJ).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
 2012\. Däubler, Thomas, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Natural Sentences as Valid Units for Coded Political Texts](/pdfs/Daubler_etal_2012.pdf)." _**British Journal of Political Science**_ 42(4): 937–951. [10.1017/S0007123412000105](https://doi.org/10.1017/S0007123412000105) [Coding instructions for the unitization study](/pdfs/Coding%20Instructions%20for%20Unitization%20Study.pdf).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
@@ -58,7 +58,7 @@ _**American Journal of Political Science**_ 70(4, October): 1589–1605. [10.111
 
 2012\. Mikhaylov, Slava, Michael Laver, and Kenneth Benoit. "[Coder Reliability and Misclassification in the Human Coding of Party Manifestos](/pdfs/MLB_PA_2012.pdf)." _**Political Analysis**_ 20(1): 78–91. [10.1093/pan/mpr047](https://doi.org/10.1093/pan/mpr047). Replication materials including original data available [**here**](/files/CMP_reliability_replication.zip).  This research was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS.
 
-2011\. Lowe, William, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Scaling Policy Preferences From Coded Political Texts](/pdfs/Loweetal_2010_LSQ.pdf)." _**Legislative Studies Quarterly**_ 36(1, February): 123–155. [10.1111/j.1939-9162.2010.00006.x](https://doi.org/10.1111/j.1939-9162.2010.00006.x). The replication **dataset** also containing more than 20 new scales (and confidence intervals) is available **[here](https://hdl.handle.net/1902.1/17073)**.
+2011\. Lowe, William, Kenneth Benoit, Slava Mikhaylov, and Michael Laver. "[Scaling Policy Preferences From Coded Political Texts](/pdfs/Loweetal_2010_LSQ.pdf)." _**Legislative Studies Quarterly**_ 36(1, February): 123–155. [10.1111/j.1939-9162.2010.00006.x](https://doi.org/10.1111/j.1939-9162.2010.00006.x). The replication **dataset** also containing more than 20 new scales (and confidence intervals) is available **[here](https://doi.org/10.7910/DVN/7QNE9O)**.
 
 2010\. McElroy, Gail and Kenneth Benoit. "[Party Policy and Group Affiliation in the European Parliament](https://doi.org/10.1017/S0007123409990469)." _**British Journal of Political Science**_ 40(2, April): 377–398.
 
@@ -66,13 +66,13 @@ _**American Journal of Political Science**_ 70(4, October): 1589–1605. [10.111
 
 2009\. Benoit, Kenneth. "[Irish Political Parties and Policy Stances on European Integration](/pdfs/Benoit_IPS_2009.pdf)." _**Irish Political Studies**_ 24(4, December): 447–466. [10.1080/07907180903274743](https://doi.org/10.1080/07907180903274743)
 
-2009\. Wiesehomeier, Nina and Kenneth Benoit. "[Presidents, Parties And Policy Competition.](/pdfs/Wiesehomeier_Benoit_JOP_2009.pdf)" _**Journal of Politics**_ 71(4, October): 1435–1447. [10.1017/S0022381609990193](https://doi.org/10.1017/S0022381609990193). _Winner of the Gulbenkian Prize 2011 (for the best paper published by a young social scientist [in all fields except economics] from a Portuguese institution in an international journal in the past two years)._ The **web-based appendix** and the **dataset and replication materials** are available from [http://ninaw.webfactional.com/?page_id=11](http://ninaw.webfactional.com/?page_id=11).
+2009\. Wiesehomeier, Nina and Kenneth Benoit. "[Presidents, Parties And Policy Competition.](/pdfs/Wiesehomeier_Benoit_JOP_2009.pdf)" _**Journal of Politics**_ 71(4, October): 1435–1447. [10.1017/S0022381609990193](https://doi.org/10.1017/S0022381609990193). _Winner of the Gulbenkian Prize 2011 (for the best paper published by a young social scientist [in all fields except economics] from a Portuguese institution in an international journal in the past two years)._
 
-2009\. Benoit, Kenneth and Michael Marsh. "[A Relative Impact Ranking of Political Studies In Ireland](http://www.esr.ie/Vol40_3/02Benoit.pdf)." _**Economic and Social Review**_ 40(3): 269–298.
+2009\. Benoit, Kenneth and Michael Marsh. "[A Relative Impact Ranking of Political Studies In Ireland](/pdfs/BenoitMarsh_ESR_2009.pdf)." _**Economic and Social Review**_ 40(3): 269–298.
 
 2009\. Benoit, Kenneth, Thomas Bräuninger, and Marc Debus. "[Challenges for estimating policy preferences: Announcing an open access archive of political documents](/pdfs/Benoit_etal_German_Politics_2009.pdf)." _**German Politics**_ 18(3, September): 441–454. [10.1080/09644000903055856](https://doi.org/10.1080/09644000903055856)
 
-2009\. Benoit, Kenneth, Michael Laver, and Slava Mikhaylov. "[Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions](/pdfs/blm2009ajps.pdf)." _**American Journal of Political Science**_ 53(2, April): 495–513. [10.1111/j.1540-5907.2009.00383.x](https://doi.org/10.1111/j.1540-5907.2009.00383.x). _[Replication materials and the error dataset can be found here](/cmp-random-error/)_.
+2009\. Benoit, Kenneth, Michael Laver, and Slava Mikhaylov. "[Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions](/pdfs/blm2009ajps.pdf)." _**American Journal of Political Science**_ 53(2, April): 495–513. [10.1111/j.1540-5907.2009.00383.x](https://doi.org/10.1111/j.1540-5907.2009.00383.x). _[Replication materials and the error dataset can be found here](/files/BLM_2009_replication.zip)_.
 
 2008\. Benoit, Kenneth and Michael Marsh. "[The Campaign Value of Incumbency: A New Solution to the Puzzle of Less Effective Incumbent Spending](/pdfs/ajps_348.pdf)." _**American Journal of Political Science**_ 52(4, October): 874–890. [10.1111/j.1540-5907.2008.00348.x](https://doi.org/10.1111/j.1540-5907.2008.00348.x). _[Replication materials here](/files/cvi_Benoit_Marsh_2008_replication.zip)_.
 
@@ -106,7 +106,7 @@ _**American Journal of Political Science**_ 70(4, October): 1589–1605. [10.111
 
 2003\. Benoit, Kenneth and Michael Marsh. "[Campaign Spending in the Local Government Elections of 1999](/pdfs/Benoit_Marsh_IPS_2003.pdf)." _**Irish Political Studies**_ 18(2, Winter): 1–22. [10.1080/1364298042000227622](https://doi.org/10.1080/1364298042000227622)
 
-2003\. Benoit, Kenneth and Michael Laver. "[Estimating Irish Party Positions Using Computer Wordscoring: The 2002 Elections](/pdfs/LaverBenoit_IPS2003.pdf)." _**Irish Political Studies**_ 18(1): 97–107. [10.1080/07907180312331293249](https://doi.org/10.1080/07907180312331293249)
+2003\. Benoit, Kenneth and Michael Laver. "[Estimating Irish Party Positions Using Computer Wordscoring: The 2002 Elections](https://doi.org/10.1080/07907180312331293249)." _**Irish Political Studies**_ 18(1): 97–107. [10.1080/07907180312331293249](https://doi.org/10.1080/07907180312331293249)
 
 2003\. Benoit, Kenneth and Michael Marsh. "[For A Few Euros More: Campaign Spending Effects in the Irish Local Elections of 1999](/pdfs/BenoitMarshPartyPolitics2003.pdf)." _**Party Politics**_ 9(5): 561–582. [10.1177/13540688030095003](https://doi.org/10.1177/13540688030095003). [Replication materials here](/files/PartyPolitics2003_replication.zip).
 
@@ -136,21 +136,21 @@ _**American Journal of Political Science**_ 70(4, October): 1589–1605. [10.111
 
 ### Books
 
-2008\. Giannetti, Daniela and Kenneth Benoit, eds. _[Intra-Party Politics and Coalition Governments](http://www.routledgepolitics.com/books/Intra-Party-Politics-and-Coalition-Governments-isbn9780415462259)_. London: Routledge.
+2008\. Giannetti, Daniela and Kenneth Benoit, eds. _[Intra-Party Politics and Coalition Governments](https://www.routledge.com/9780415462259)_. London: Routledge.
 
-2006\. Benoit, Kenneth and Michael Laver. [_Party Policy in Modern Democracies_](http://www.tcd.ie/Political_Science/ppmd/). London: Routledge.
+2006\. Benoit, Kenneth and Michael Laver. [_Party Policy in Modern Democracies_](https://www.tcd.ie/Political_Science/ppmd/). London: Routledge.
 
 ### Software and Datasets
 
-2012-present. **quanteda**: quantitative analysis of textual data (R package). Available from [http://github.com/kbenoit/quanteda](http://github.com/kbenoit/quanteda).
+2012-present. **quanteda**: quantitative analysis of textual data (R package). Available from [https://github.com/quanteda/quanteda](https://github.com/quanteda/quanteda).
 
-2004-2005\. Benoit, Kenneth and Michael Laver. _Party Policy in Modern Democracies_. Expert survey scores of policy positions of political parties in 47 countries. Accompanies book of same title. Available from [http://www.politics.tcd.ie/ppmd/](http://www.politics.tcd.ie/ppmd/).
+2004-2005\. Benoit, Kenneth and Michael Laver. _Party Policy in Modern Democracies_. Expert survey scores of policy positions of political parties in 47 countries. Accompanies book of same title. Available from [https://www.tcd.ie/Political_Science/ppmd/](https://www.tcd.ie/Political_Science/ppmd/).
 
-Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Stata. Available from [http://wordscores.com](http://wordscores.com).
+Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Stata.
 
-1996-2002\. Benoit, Kenneth and Gary King. "[_EzI: A(n Easy) Program for Ecological Inference_](http://gking.harvard.edu/EzI)." Computer software for MS-DOS, OS/2, and Windows 95\. Development language: Gauss. Winner of the 1998 APSA Best Research Software Award.
+1996-2002\. Benoit, Kenneth and Gary King. "[_EzI: A(n Easy) Program for Ecological Inference_](https://gking.harvard.edu/ezi)." Computer software for MS-DOS, OS/2, and Windows 95\. Development language: Gauss. Winner of the 1998 APSA Best Research Software Award.
 
-1999\. Gary King, Bradley Palmquist, Greg Adams, Micah Altman, Kenneth Benoit, Claudine Gay, Jeffrey B. Lewis, Kenneth R. Mayer, and Eric Reinhardt. _[Record of American Democracy, 1984-1990](http://road.hmdc.harvard.edu/)._ Inter-university Consortium for Political and Social Research Number 2162\. Winner of the 1999 APSA Best Research Web Site Award.
+1999\. Gary King, Bradley Palmquist, Greg Adams, Micah Altman, Kenneth Benoit, Claudine Gay, Jeffrey B. Lewis, Kenneth R. Mayer, and Eric Reinhardt. _Record of American Democracy, 1984-1990._ Inter-university Consortium for Political and Social Research Number 2162\. Winner of the 1999 APSA Best Research Web Site Award.
 
 ### Book Chapters
 
@@ -164,15 +164,15 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 2009\. McElroy, Gail and Kenneth Benoit. "Party Group Switching in the European Parliament." In _Legislative Party Switching and the Foundations of Political Parties_, eds. William Heller and Carol Mershon. New York: Palgrave Macmillan. pp. 147–172.
 
-2008\. Giannetti, Daniela and Kenneth Benoit. "Intraparty politics and coalition governments in parliamentary democracies." In _[Intra-Party Politics and Coalition Governments in Parliamentary Democracies](http://books.google.com/books?id=OML41rWMY4IC&lpg=PP1&ots=HD2yrK5-9a&dq=Intraparty%20politics%20and%20coalition%20governments%20in%20parliamentary%20democracies&pg=PP1#v=onepage&q=&f=false)_, eds. Daniela Giannetti and Kenneth Benoit. London: Routledge. pp. 3–24.
+2008\. Giannetti, Daniela and Kenneth Benoit. "Intraparty politics and coalition governments in parliamentary democracies." In _[Intra-Party Politics and Coalition Governments in Parliamentary Democracies](https://books.google.com/books?id=OML41rWMY4IC&lpg=PP1&ots=HD2yrK5-9a&dq=Intraparty%20politics%20and%20coalition%20governments%20in%20parliamentary%20democracies&pg=PP1#v=onepage&q=&f=false)_, eds. Daniela Giannetti and Kenneth Benoit. London: Routledge. pp. 3–24.
 
-2008\. Benoit, Kenneth and Daniela Giannetti. "Intraparty politics and coalition governance: concluding remarks." In _[Intra-Party Politics and Coalition Governments in Parliamentary Democracies](http://books.google.com/books?id=OML41rWMY4IC&lpg=PP1&ots=HD2yrK5-9a&dq=Intraparty%20politics%20and%20coalition%20governments%20in%20parliamentary%20democracies&pg=PP1#v=onepage&q=&f=false)_, eds. Daniela Giannetti and Kenneth Benoit. London: Routledge. pp. 229–235.
+2008\. Benoit, Kenneth and Daniela Giannetti. "Intraparty politics and coalition governance: concluding remarks." In _[Intra-Party Politics and Coalition Governments in Parliamentary Democracies](https://books.google.com/books?id=OML41rWMY4IC&lpg=PP1&ots=HD2yrK5-9a&dq=Intraparty%20politics%20and%20coalition%20governments%20in%20parliamentary%20democracies&pg=PP1#v=onepage&q=&f=false)_, eds. Daniela Giannetti and Kenneth Benoit. London: Routledge. pp. 229–235.
 
-2008\. Benoit, Kenneth and Nina Wiesehomeier. "[Expert Judgments](http://books.google.ie/books?id=cZDvNj1Rm9kC&lpg=PA554&ots=vB5-WfXL2P&dq=Neuere%20Entwicklungen%20und%20Anwendungen%20auf%20dem%20Gebiet%20der%20Methoden%20der%20vergleichenden%20Politik-%20und%20Sozialwissenschaft&pg=PA497#v=onepage&q=&f=false)." In _Neuere Entwicklungen und Anwendungen auf dem Gebiet der Methoden der vergleichenden Politik- und Sozialwissenschaft_, eds. Susanne Pickel, Gert Pickel, Hans-Joachim Lauth, and Detlef Jahn. Wiesbaden: VS Verlag. pp. 497–515.
+2008\. Benoit, Kenneth and Nina Wiesehomeier. "[Expert Judgments](https://books.google.ie/books?id=cZDvNj1Rm9kC&lpg=PA554&ots=vB5-WfXL2P&dq=Neuere%20Entwicklungen%20und%20Anwendungen%20auf%20dem%20Gebiet%20der%20Methoden%20der%20vergleichenden%20Politik-%20und%20Sozialwissenschaft&pg=PA497#v=onepage&q=&f=false)." In _Neuere Entwicklungen und Anwendungen auf dem Gebiet der Methoden der vergleichenden Politik- und Sozialwissenschaft_, eds. Susanne Pickel, Gert Pickel, Hans-Joachim Lauth, and Detlef Jahn. Wiesbaden: VS Verlag. pp. 497–515.
 
 2006\. Gwiazda, Anna and Kenneth Benoit. "Hungary: Protection of Ethnic Minorities and Institutional Balance." In _Policy-making Processes and the European Constitution: A comparative study of member states and accession countries_, eds. Thomas König and Simon Hug. London: Routledge. pp. 119–127.
 
-2005\. Benoit, Kenneth. "[Hungary: Holding Back the Tiers.](/pdfs/11-Gallagher-chap11.pdf)" In [_The Politics of Electoral Systems_](http://www.oup.co.uk/isbn/0-19-925756-6), eds. Michael Gallagher and Paul Mitchell. Oxford: Oxford University Press. pp. 231–252.
+2005\. Benoit, Kenneth. "[Hungary: Holding Back the Tiers.](/pdfs/11-Gallagher-chap11.pdf)" In [_The Politics of Electoral Systems_](https://doi.org/10.1093/0199257566.001.0001), eds. Michael Gallagher and Paul Mitchell. Oxford: Oxford University Press. pp. 231–252.
 
 2004\. Benoit, Kenneth, Michael Laver and Daniela Giannetti. "[Multi-Party Split-Ticket Voting Estimation as an Ecological Inference Problem](/pdfs/BGL_EI2004_Chapter.pdf)." In Gary King, Ori Rosen, and Martin Tanner, eds. _Ecological Inference: New Methodological Strategies_. Cambridge: Cambridge University Press.
 
@@ -208,7 +208,7 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 2007\. McElroy, Gail and Kenneth Benoit. "A Policy Model of Party Group Formation in the European Parliament." _21st Century COE program ‘Invention of Policy Systems in Advanced Countries’ Occasional Paper_. University of Tokyo.
 
-2006\. McElroy, Gail and Kenneth Benoit. "[Party Groups and Policy Positions in the European Parliament.](http://www.tcd.ie/iiis/pages/publications/discussionpapers/IIISDP101.php)" _Institute for International Integration Studies Discussion Paper_ No. 102.
+2006\. McElroy, Gail and Kenneth Benoit. "[Party Groups and Policy Positions in the European Parliament.](https://www.tcd.ie/triss/assets/PDFs/iiis/iiisdp101.pdf)" _Institute for International Integration Studies Discussion Paper_ No. 101.
 
 2004\. Chari, Raj, Alfonso Egea de Haro, Kenneth Benoit, and Michael Laver. "[Spain and European Union Constitution-Building](/pdfs/RIEEIE_2004-17.pdf)." Working paper 2004/17, Real Instituto Elcano de Estudios Internacionales y Estratégicos (Madrid, July 18).
 
@@ -218,7 +218,7 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 ### Conference Papers and Unpublished Papers
 
-2017\.  Perry, Patrick and Kenneth Benoit.  "[Scaling Text with the Class Affinity Model](http://arxiv.org/abs/1710.08963)."  London School of Economics and New York University manuscript. 
+2017\.  Perry, Patrick and Kenneth Benoit.  "[Scaling Text with the Class Affinity Model](https://arxiv.org/abs/1710.08963)."  London School of Economics and New York University manuscript. 
 
 2007 (with Michael Laver and Slava Mikhaylov). "Mapping Policy Preferences with Uncertainty: Measuring and Correcting Error in Comparative Manifesto Project Estimates." Paper presented at the 2007 Annual Meeting of the American Political Science Association, Chicago, 30 August-2 September.
 
@@ -226,6 +226,6 @@ Benoit, Kenneth. _Wordscores: Software for Coding Political Texts_. Requires Sta
 
 2005 (with Michael Laver). "The Integer Arithmetic of Legislative Dynamics." Paper presented at the Workshop on Party Switching, July 10-14, 2005, University of Virginia, Charlottesville, VA.
 
-2002 (with Michael Laver). "[Extracting Policy Positions From Political Texts Using Phrases as Data: A Research Note](/pdfs/WordphrasesMidwest3.pdf)." Paper presented at the 2003 annual meeting of the Midwest Political Science Association, Palmer House Hilton and Towers, Chicago, IL, 3-6 April.
+2002 (with Michael Laver). "Extracting Policy Positions From Political Texts Using Phrases as Data: A Research Note." Paper presented at the 2003 annual meeting of the Midwest Political Science Association, Palmer House Hilton and Towers, Chicago, IL, 3-6 April.
 
 2001\. "[Two Steps Forward, One Step Back: Electoral Coordination in the Hungarian Elections of 1998](/pdfs/twostepsPP.pdf)." Trinity College manuscript.

@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-**(Selected conferences and presentations)**
+**(Selected conferences and presentations, 1992–2009)**
 
 30 June 2009\. “[**Issues and Challenges in Estimating Political Preferences from Text**](/pdfs/EITM_Mannheim_2009.pdf)”. Empirical Implications of Theoretical Models, ECPR Summer School, University of Mannheim.
 
